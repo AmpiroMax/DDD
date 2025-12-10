@@ -1,0 +1,41 @@
+{
+  "actions": {
+    "move_left": {
+      "keys": [
+        "A",
+        "Left"
+      ]
+    },
+    "move_right": {
+      "keys": [
+        "D",
+        "Right"
+      ]
+    },
+    "move_up": {
+      "keys": [
+        "W"
+      ]
+    },
+    "move_down": {
+      "keys": [
+        "S"
+      ]
+    },
+    "jump": {
+      "keys": [
+        "Space"
+      ]
+    },
+    "break_block": {
+      "mouse": [
+        "Left"
+      ]
+    },
+    "place_block": {
+      "mouse": [
+        "Right"
+      ]
+    }
+  }
+}
