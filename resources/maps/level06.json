@@ -1,0 +1,261 @@
+{
+    "sectors": [
+        {
+            "name": "static brick box wall",
+            "texture": "wall_brick",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                10,
+                0
+            ],
+            "size": [
+                2,
+                10
+            ]
+        },
+        {
+            "name": "static brick box wall",
+            "texture": "wall_brick",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                -10,
+                0
+            ],
+            "size": [
+                2,
+                10
+            ]
+        },
+        {
+            "name": "static brick box wall",
+            "texture": "wall_brick",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                -10,
+                0
+            ],
+            "size": [
+                2,
+                10
+            ]
+        },
+        {
+            "name": "static brick box wall",
+            "texture": "wall_brick",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                0,
+                10
+            ],
+            "size": [
+                10,
+                2
+            ]
+        },
+        {
+            "name": "static brick box wall",
+            "texture": "wall_brick",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                0,
+                -10
+            ],
+            "size": [
+                10,
+                2
+            ]
+        },
+        {
+            "name": "static brick polygon wall",
+            "texture": "wall_brick",
+            "bodyShape": "Polygon",
+            "physics": {
+                "bodyType": "Static"
+            },
+            "position": [
+                -5,
+                0
+            ],
+            "vertices": [
+                [
+                    -3,
+                    0
+                ],
+                [
+                    0,
+                    3
+                ],
+                [
+                    3,
+                    0
+                ]
+            ]
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Polygon",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 1.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": true,
+                "isSensor": false
+            },
+            "position": [
+                0,
+                -5
+            ],
+            "vertices": [
+                [
+                    -3,
+                    0
+                ],
+                [
+                    0,
+                    3
+                ],
+                [
+                    3,
+                    0
+                ]
+            ]
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Polygon",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 1.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": true,
+                "isSensor": false
+            },
+            "position": [
+                -3,
+                -3
+            ],
+            "vertices": [
+                [
+                    -3,
+                    0
+                ],
+                [
+                    0,
+                    3
+                ],
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Circle",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 1.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": true,
+                "isSensor": false
+            },
+            "position": [
+                1,
+                2
+            ],
+            "radius": 0.5
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Circle",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 10.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": true,
+                "isSensor": false
+            },
+            "position": [
+                2,
+                3
+            ],
+            "radius": 0.1
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Circle",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 0.1,
+                "friction": 0.0,
+                "restitution": 0.1,
+                "linearDamping": 0.1,
+                "canRotate": true,
+                "isSensor": false
+            },
+            "position": [
+                5,
+                5
+            ],
+            "radius": 0.5
+        },
+        {
+            "name": "dynamic brick polygon box",
+            "texture": "wood_box",
+            "bodyShape": "Box",
+            "physics": {
+                "bodyType": "Dynamic",
+                "density": 5.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": false,
+                "isSensor": false
+            },
+            "position": [
+                9,
+                -7
+            ],
+            "size": [
+                3,
+                3
+            ]
+        }
+    ]
+}

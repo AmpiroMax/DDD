@@ -1,9 +1,8 @@
 | Backlog | Todo | InProgress | Review | Done |
 | --- | --- | --- | --- | --- |
-| Звук: базовые эффекты | Mechanics: PlayerControlSystem (ходьба/прыжок), CameraFollowSystem |  |  | Physics: PhysicsManager/Body/Contact/Grounded |
-| Камера: кламп границ мира | Mechanics: TileInteractionSystem (ломать/ставить), загрузка карты/конфига |  |  | Graphics: RenderSystem + UIRenderSystem + ResourceManager (атласы/шрифты) |
-| Оптимизация тайлов: чанки тел | Physics: Интеграция Place/BreakBlock (создание/удаление тел тайлов) |  |  | Mechanics: InputSystem (Pressed/Held/Released) |
-| UI: выбор блока/слота | Graphics: Атлас: список регионов + подтверждение путей ресурсов |  |  |  |
-| Release hygiene: git repo/branch policy, main всегда green | Docs: Build & Run guide (tech writer) |  |  |  |
-| Документация: обзор проекта (what/why), код/архитектура, ожидания по билду | Docs: Проектный обзор + кодовая карта + ожидания по билду (tech writer) |  |  |  |
+| Звук: базовые эффекты |  |  |  | Physics: Интеграция Place/BreakBlock (создание/удаление тел тайлов); Physics: дроп сломанных объектов (физтела дропа возле места ломки, лежат на ближайших блоках); Docs: обновить build_run/overview c финальными путями/атласом (`resources/textures/tileMap.png` ground 0,0,32,32; шрифт debug alias `fonts/ArialRegular.ttf`) (tech writer) |
+| Камера: кламп границ мира |  | Mechanics2: система инвентаря; Mechanics3: интерфейс/инвентарь UI |  |  |
+| Оптимизация тайлов: чанки тел | UI: выбор блока/слота |  |  |  |
+| Release hygiene: git repo/branch policy, main всегда green |  |  |  |  |
+| Документация: обзор проекта (what/why), код/архитектура, ожидания по билду |  |  |  |  |
 

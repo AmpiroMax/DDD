@@ -36,6 +36,148 @@
       "mouse": [
         "Right"
       ]
+    },
+    "slot_1": {
+      "keys": [
+        "1"
+      ]
+    },
+    "slot_2": {
+      "keys": [
+        "2"
+      ]
+    },
+    "slot_3": {
+      "keys": [
+        "3"
+      ]
+    },
+    "slot_4": {
+      "keys": [
+        "4"
+      ]
+    },
+    "slot_5": {
+      "keys": [
+        "5"
+      ]
+    },
+    "slot_6": {
+      "keys": [
+        "6"
+      ]
+    },
+    "slot_7": {
+      "keys": [
+        "7"
+      ]
+    },
+    "slot_8": {
+      "keys": [
+        "8"
+      ]
+    },
+    "slot_9": {
+      "keys": [
+        "9"
+      ]
+    },
+    "slot_10": {
+      "keys": [
+        "0"
+      ]
+    },
+    "slot_prev": {
+      "keys": [
+        "Q"
+      ],
+      "wheel": [
+        "Up"
+      ]
+    },
+    "slot_next": {
+      "keys": [
+        "E"
+      ],
+      "wheel": [
+        "Down"
+      ]
+    },
+    "inventory_prev": {
+      "keys": [
+        "Q"
+      ],
+      "wheel": [
+        "Up"
+      ]
+    },
+    "inventory_next": {
+      "keys": [
+        "E"
+      ],
+      "wheel": [
+        "Down"
+      ]
+    },
+    "inventory_slot_1": {
+      "keys": [
+        "1"
+      ]
+    },
+    "inventory_slot_2": {
+      "keys": [
+        "2"
+      ]
+    },
+    "inventory_slot_3": {
+      "keys": [
+        "3"
+      ]
+    },
+    "inventory_slot_4": {
+      "keys": [
+        "4"
+      ]
+    },
+    "inventory_slot_5": {
+      "keys": [
+        "5"
+      ]
+    },
+    "inventory_slot_6": {
+      "keys": [
+        "6"
+      ]
+    },
+    "inventory_slot_7": {
+      "keys": [
+        "7"
+      ]
+    },
+    "inventory_slot_8": {
+      "keys": [
+        "8"
+      ]
+    },
+    "inventory_slot_9": {
+      "keys": [
+        "9"
+      ]
+    },
+    "inventory_slot_10": {
+      "keys": [
+        "0"
+      ]
+    },
+    "menu": {
+      "keys": [
+        "Escape"
+      ]
+    },
+    "debug_toggle": {
+      "keys": [
+        "Tilde"
+      ]
     }
   }
 }

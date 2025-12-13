@@ -2,17 +2,21 @@
   "resources_path": "resources/",
   "textures_path": "textures/",
   "window": {
-    "size": [1280, 720],
+    "size": [
+      1280,
+      720
+    ],
     "title": "DDD Terraria-like MVP"
   },
   "player": {
     "speed": 6.0,
     "jump_impulse": 8.0,
-    "sprite": "player"
+    "sprite": "player",
+    "pickup_radius": 48.0
   },
+  "inventory_file": "inventory.json",
   "world": {
     "tile_size": 32,
-    "map_file": "maps/level01.json"
+    "map_file": "maps/level_house.json"
   }
 }
-

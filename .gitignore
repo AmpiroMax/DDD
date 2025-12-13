@@ -1,0 +1,66 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build results
+/build/
+/bin/
+/out/
+/dist/
+/target/
+/CMakeFiles/
+/CMakeCache.txt
+cmake-build-*/
+
+# Compiled object files and executables
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+
+# Backup and swap files
+*~
+*.swp
+*.swo
+*.bak
+
+# IDE directories
+.vscode/
+.idea/
+*.iml
+
+# User-specific files
+*.log
+*.tmp
+
+# Test and coverage outputs
+/test-output/
+/coverage/
+/*.gcda
+/*.gcno
+/*.gcov
+
+# Packages
+*.egg-info/
+*.pyc
+__pycache__/
+
+# Other
+.env
+*.out
+
+# Ignore generated documentation
+/docs/html/
+/docs/doxygen/
+/docs/_build/
+
+# Ignore generated save files, maps, and temp game data
+saves/
+saves/*
+*.sav
+*.autosave
+*.tmpmap
+

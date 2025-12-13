@@ -1,0 +1,104 @@
+{
+    "sectors": [
+        {
+            "name": "wall_left",
+            "vertices": [
+                [
+                    -5,
+                    -5
+                ],
+                [
+                    -5,
+                    5
+                ],
+                [
+                    -4.9,
+                    5
+                ],
+                [
+                    -4.9,
+                    -5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_right",
+            "vertices": [
+                [
+                    4.9,
+                    -5
+                ],
+                [
+                    4.9,
+                    5
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    -5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_top",
+            "vertices": [
+                [
+                    -5,
+                    4.9
+                ],
+                [
+                    5,
+                    4.9
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    -5,
+                    5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_bottom",
+            "vertices": [
+                [
+                    -5,
+                    -5
+                ],
+                [
+                    5,
+                    -5
+                ],
+                [
+                    5,
+                    -4.9
+                ],
+                [
+                    -5,
+                    -4.9
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        }
+    ]
+}

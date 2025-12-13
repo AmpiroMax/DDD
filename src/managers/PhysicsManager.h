@@ -6,12 +6,17 @@
 #include <algorithm>
 #include <cstdint>
 #include <box2d/box2d.h>
+#include <new>
 
 class PhysicsManager {
   public:
     PhysicsManager() : world(b2Vec2(0.0f, -9.8f)) {}
 
     b2World &getWorld() { return world; }
+    void resetWorld() {
+        world.~b2World();
+        new (&world) b2World(b2Vec2(0.0f, -9.8f));
+    }
 
     b2Body *createBody(b2BodyType type, const Vec2 &worldPos, float angleDeg, bool canRotate, float linearDamping,
                        float angularDamping) {

@@ -1,0 +1,2867 @@
+==== Frame 1000 ====
+[mechanics]
+Pos: (3.000000, 12.767778)
+Vel: (0.000000, -6.533336)
+Grounded: no
+[physics]
+Mouse world: (2.96875, 18.6115)
+Tile: (2, -19) out_of_bounds
+Drops total: 0
+
+==== Frame 2000 ====
+[mechanics]
+Pos: (3.000000, 5.510334)
+Vel: (0.000000, -13.556657)
+Grounded: no
+[physics]
+Mouse world: (2.96875, 11.3541)
+Tile: (2, -12) out_of_bounds
+Drops total: 0
+
+==== Frame 3000 ====
+[mechanics]
+Pos: (3.000000, -6.437492)
+Vel: (0.000000, -20.416666)
+Grounded: no
+[physics]
+Mouse world: (2.96875, -0.253465)
+Tile: (2, 0) id=-1 air
+Drops total: 0
+
+==== Frame 4000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (2.96875, -9.34125)
+Tile: (2, 9) id=-1 air
+Drops total: 0
+
+==== Frame 5000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (4.65625, -8.65375)
+Tile: (4, 8) id=-1 air
+Drops total: 0
+
+==== Frame 6000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.25, -10.31)
+Tile: (5, 10) id=4 solid
+Drops total: 0
+
+==== Frame 7000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6, -10.3412)
+Tile: (6, 10) id=4 solid
+Drops total: 0
+
+==== Frame 8000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.5625, -10.31)
+Tile: (5, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(0,0) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 9000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.5625, -10.31)
+Tile: (5, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(2.6439e-09,3.05988e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 10000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.5625, -10.31)
+Tile: (5, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(1.83255e-09,7.01345e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 11000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.5625, -10.31)
+Tile: (5, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-2.03819e-09,-6.92694e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 12000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.5625, -10.31)
+Tile: (5, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(1.65918e-09,7.49287e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 13000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.3125, -7.71625)
+Tile: (7, 7) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(1.65918e-09,7.97149e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 14000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.3125, -7.71625)
+Tile: (7, 7) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(1.65918e-09,8.43017e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 15000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.90625, -8.2475)
+Tile: (6, 8) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-2.03816e-09,-8.80153e-17) awake tile=(5,10) tid=-1 air
+Drops total: 1
+
+==== Frame 16000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.28125, -11.6225)
+Tile: (5, 11) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-2.01453e-09,-2.27244) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0,-2.27244) awake tile=(5,11) tid=-1 air
+Drops total: 2
+
+==== Frame 17000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.375, -12.6225)
+Tile: (5, 12) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(2.23204e-08,-1.13953) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(7.25283e-09,-1.13953) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0,-1.13953) awake tile=(5,12) tid=-1 air
+Drops total: 3
+
+==== Frame 18000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.59375, -14.0288)
+Tile: (5, 14) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-4.83824e-05,-1.42512e-09) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-2.72677e-05,-2.05247e-08) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-9.92453e-06,1.65727e-08) awake tile=(5,12) tid=-1 air
+Drops total: 3
+
+==== Frame 19000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.8125, -13.7163)
+Tile: (5, 13) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(2.17904e-06,-3.07762) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(5.11506e-07,-3.07762) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(8.75206e-07,-3.07763) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(0,-3.07762) awake tile=(5,13) tid=-1 air
+Drops total: 4
+
+==== Frame 20000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (9.9375, -10.1538)
+Tile: (9, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(0.000156411,1.48763e-07) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000106692,9.07281e-07) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(5.98379e-05,2.65808e-06) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(2.57248e-05,1.24924e-07) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(1.27821e-09,-3.72532e-09) awake tile=(6,13) tid=-1 air
+Drops total: 7
+
+==== Frame 21000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (9.9375, -10.1538)
+Tile: (9, 10) id=1 solid
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.0014369,5.30285e-06) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-0.000934026,-2.90459e-06) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-0.000483935,-2.01757e-05) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000189366,-1.51128e-07) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(-2.09677e-09,-6.51039e-17) awake tile=(6,13) tid=-1 air
+Drops total: 7
+
+==== Frame 22000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.96875, -10.2475)
+Tile: (3, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(0.000102099,-3.38667e-07) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(6.6252e-05,2.15581e-07) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(3.42285e-05,1.51187e-06) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(1.33625e-05,-2.52093e-08) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(-2.03816e-09,-7.10643e-17) awake tile=(6,13) tid=-1 air
+Drops total: 8
+
+==== Frame 23000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.09375, -19.7475)
+Tile: (7, 19) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(1.57989e-06,1.77005e-08) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(1.05266e-06,2.8862e-08) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(5.91885e-07,7.82339e-08) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(2.79212e-07,-9.31445e-09) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(-2.03816e-09,-7.86424e-17) awake tile=(6,13) tid=-1 air
+Drops total: 26
+
+==== Frame 24000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.4375, -16.435)
+Tile: (6, 16) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-3.92831e-06,4.65616e-09) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-2.51675e-06,4.65635e-09) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-1.25198e-06,-7.2641e-08) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-4.8007e-07,7.45142e-09) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(-2.03816e-09,-8.66193e-17) awake tile=(6,13) tid=-1 air
+Drops total: 29
+
+==== Frame 25000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (4.84375, -15.935)
+Tile: (4, 15) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-1.7779e-07,-1.11764e-08) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-7.06399e-08,3.72576e-09) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-4.09968e-09,5.58768e-09) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(2.59751e-08,1.8626e-09) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(1.65918e-09,9.54692e-17) awake tile=(6,13) tid=-1 air
+Drops total: 31
+
+==== Frame 26000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (-0.53125, -22.935)
+Tile: (-1, 22) out_of_bounds
+drop#1 id=4 pos=(5.5,-10.4) vel=(-2.52757e-07,4.7497e-08) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-1.25856e-07,3.0734e-08) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-3.41788e-08,1.30383e-08) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(2.01769e-09,9.31309e-09) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(1.66019e-09,7.51734e-17) awake tile=(6,13) tid=-1 air
+Drops total: 31
+
+==== Frame 27000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (2.65625, -20.1225)
+Tile: (2, 20) out_of_bounds
+drop#1 id=4 pos=(5.5,-10.4) vel=(-4.15021e-07,1.76948e-08) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(-3.15023e-07,3.0734e-08) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(-2.10691e-07,3.72471e-09) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-1.06222e-07,1.4901e-08) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(1.65918e-09,8.35483e-17) awake tile=(6,13) tid=-1 air
+Drops total: 55
+
+==== Frame 28000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (16.375, -10.1538)
+Tile: (16, 10) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000408985,-7.83813) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000307758,-7.83814) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000646736,-7.83918) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000544304,-7.84027) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(8.28558e-08,-1.4958e-08) awake tile=(6,13) tid=-1 air
+Drops total: 66
+
+==== Frame 29000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (17.4062, -11.0288)
+Tile: (17, 11) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.00038071,-20.8459) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000286482,-20.8459) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000602025,-20.8469) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000506674,-20.8479) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(3.51384e-08,-1.67638e-08) awake tile=(6,13) tid=-1 air
+Drops total: 78
+
+==== Frame 30000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (19.4688, -18.06)
+Tile: (19, 18) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.0003538,-33.2259) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000266232,-33.2259) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000559471,-33.2268) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.00047086,-33.2277) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(4.43646e-08,-1.86264e-08) awake tile=(6,13) tid=-1 air
+Drops total: 105
+
+==== Frame 31000 ====
+[mechanics]
+Pos: (3.000000, -17.880001)
+Vel: (0.000000, -7.186670)
+Grounded: no
+[physics]
+Mouse world: (-5.59375, -25.9738)
+Tile: (-6, 25) out_of_bounds
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000328245,-44.9826) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000247002,-44.9826) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.00051906,-44.9834) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.00043685,-44.9843) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(2.34915e-08,-1.21072e-08) awake tile=(6,13) tid=-1 air
+Drops total: 110
+
+==== Frame 32000 ====
+[mechanics]
+Pos: (3.000000, -18.185005)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (1.625, -19.6538)
+Tile: (1, 19) id=1 solid
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000304282,-56.0067) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.00022897,-56.0067) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000481167,-56.0075) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000404958,-56.0083) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(1.05812e-07,-2.98023e-08) awake tile=(6,13) tid=-1 air
+Drops total: 109
+
+==== Frame 33000 ====
+[mechanics]
+Pos: (3.000000, -17.926504)
+Vel: (0.000000, 7.673333)
+Grounded: no
+[physics]
+Mouse world: (1.53125, -18.739)
+Tile: (1, 18) id=1 solid
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000282304,-66.1178) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000212431,-66.1179) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000446412,-66.1186) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000375708,-66.1193) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(4.38611e-08,-9.31319e-10) awake tile=(6,13) tid=-1 air
+Drops total: 109
+
+==== Frame 34000 ====
+[mechanics]
+Pos: (3.000000, -17.111898)
+Vel: (0.000000, -6.373340)
+Grounded: no
+[physics]
+Mouse world: (2.15625, -17.0494)
+Tile: (2, 17) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000262787,-75.0962) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000197745,-75.0962) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.00041555,-75.0969) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000349734,-75.0977) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(5.11287e-09,-1.76952e-08) awake tile=(6,13) tid=-1 air
+Drops total: 109
+
+==== Frame 35000 ====
+[mechanics]
+Pos: (3.000000, -18.185005)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (2.15625, -18.1538)
+Tile: (2, 18) id=-1 air
+drop#1 id=4 pos=(5.5,-10.4) vel=(-0.000243197,-84.1082) awake tile=(5,10) tid=-1 air
+drop#2 id=4 pos=(5.5,-11.4) vel=(0.000183004,-84.1082) awake tile=(5,11) tid=-1 air
+drop#3 id=4 pos=(5.5,-12.4) vel=(0.000384572,-84.1088) awake tile=(5,12) tid=-1 air
+drop#4 id=4 pos=(5.5,-13.4) vel=(-0.000323662,-84.1096) awake tile=(5,13) tid=-1 air
+drop#5 id=9 pos=(6.5,-13.4) vel=(4.5192e-08,-5.98093e-15) awake tile=(6,13) tid=-1 air
+Drops total: 109
+
+==== Frame 1000 ====
+[mechanics]
+Pos: (3.000000, 12.767778)
+Vel: (0.000000, -6.533336)
+Grounded: no
+[physics]
+Mouse world: (3.1875, 15.8615)
+Tile: (3, -16) out_of_bounds
+Drops total: 0
+
+==== Frame 2000 ====
+[mechanics]
+Pos: (3.000000, 5.959501)
+Vel: (0.000000, -13.229991)
+Grounded: no
+[physics]
+Mouse world: (3.625, 7.86575)
+Tile: (3, -8) out_of_bounds
+Drops total: 0
+
+==== Frame 3000 ====
+[mechanics]
+Pos: (3.000000, -5.092715)
+Vel: (0.000000, -19.763330)
+Grounded: no
+[physics]
+Mouse world: (3.75, -3.46772)
+Tile: (3, 3) id=-1 air
+Drops total: 0
+
+==== Frame 4000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (4.65625, -13.7788)
+Tile: (4, 13) id=-1 air
+Drops total: 0
+
+==== Frame 5000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.15625, -13.5913)
+Tile: (5, 13) id=-1 air
+drop#1 id=4 pos=(5.5,-15.0036) vel=(0,-5.47315) awake tile=(5,15) tid=-1 air
+Drops total: 1
+
+==== Frame 6000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (4.46875, -12.9975)
+Tile: (4, 12) id=-1 air
+drop#1 id=4 pos=(5.50008,-15.8183) vel=(1.60413e-08,6.66282e-15) awake tile=(5,15) tid=-1 air
+Drops total: 1
+
+==== Frame 7000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.34375, -15.31)
+Tile: (6, 15) id=-1 air
+drop#1 id=4 pos=(5.50012,-15.819) vel=(0.00017231,1.01772e-07) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.4719) vel=(0.00042182,1.79339e-07) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(6.5,-13.1827) vel=(-4.72713e-09,-2.59491) awake tile=(6,13) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8186) vel=(-4.01375e-06,1.33849e-08) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.4706) vel=(-9.83595e-06,3.09258e-09) awake tile=(7,11) tid=-1 air
+Drops total: 9
+
+==== Frame 8000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.40625, -13.7475)
+Tile: (7, 13) id=4 solid
+drop#1 id=4 pos=(5.50012,-15.8183) vel=(1.19851e-07,-1.86377e-09) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.47) vel=(2.85328e-07,3.7249e-09) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(6.62085,-14.7967) vel=(0.158263,-0.00992422) awake tile=(6,14) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8183) vel=(-8.50263e-09,-2.142e-08) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.47) vel=(-2.30059e-08,-5.30854e-08) awake tile=(7,11) tid=-1 air
+Drops total: 9
+
+==== Frame 9000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.9375, -13.2163)
+Tile: (7, 13) id=4 solid
+drop#1 id=4 pos=(5.50012,-15.8183) vel=(-2.49193e-08,1.76955e-08) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.47) vel=(-7.24994e-08,4.65647e-09) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(7.25624,-15.8157) vel=(6.73778e-07,-1.67638e-08) awake tile=(7,15) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8183) vel=(-1.43592e-09,8.38188e-09) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.47) vel=(8.75955e-09,-1.58325e-08) awake tile=(7,11) tid=-1 air
+Drops total: 9
+
+==== Frame 10000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.2188, -9.3725)
+Tile: (19, 9) id=-1 air
+drop#1 id=4 pos=(5.50012,-15.8183) vel=(-7.1548e-09,-1.86266e-09) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.47) vel=(-2.53738e-08,-5.58794e-09) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(7.25624,-15.8157) vel=(-2.57569e-09,-1.76951e-08) awake tile=(7,15) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8183) vel=(-1.55922e-08,1.39712e-08) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.47) vel=(2.88671e-09,4.65599e-09) awake tile=(7,11) tid=-1 air
+Drops total: 19
+
+==== Frame 11000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (15.9375, -15.2475)
+Tile: (15, 15) id=-1 air
+drop#1 id=4 pos=(5.50012,-15.8183) vel=(1.38064e-08,-8.38193e-09) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.47) vel=(4.4019e-08,-6.51925e-09) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(7.25714,-15.8165) vel=(2.98567e-08,3.22642e-08) awake tile=(7,15) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8183) vel=(4.77383e-08,1.67637e-08) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.47) vel=(1.48569e-07,-1.49011e-08) awake tile=(7,11) tid=-1 air
+Drops total: 42
+
+==== Frame 12000 ====
+[mechanics]
+Pos: (3.000000, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (15.9063, -15.2475)
+Tile: (15, 15) id=-1 air
+drop#1 id=4 pos=(5.50012,-15.8183) vel=(2.34033e-08,4.6566e-09) awake tile=(5,15) tid=-1 air
+drop#2 id=4 pos=(5.49995,-15.47) vel=(7.45838e-08,-4.65661e-09) awake tile=(5,15) tid=-1 air
+drop#3 id=4 pos=(7.25714,-15.8165) vel=(1.84913e-09,6.40898e-09) awake tile=(7,15) tid=-1 air
+drop#4 id=4 pos=(7.50002,-11.8183) vel=(1.48373e-08,6.51924e-09) awake tile=(7,11) tid=-1 air
+drop#5 id=4 pos=(7.49998,-11.47) vel=(4.09314e-08,-1.39698e-08) awake tile=(7,11) tid=-1 air
+Drops total: 42
+
+==== Frame 13000 ====
+[mechanics]
+Pos: (4.584913, -15.185000)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (17.4912, -15.2475)
+Tile: (17, 15) id=7 solid
+drop#1 id=4 pos=(7.25714,-15.8165) vel=(-1.66851e-08,1.91192e-08) awake tile=(7,15) tid=-1 air
+drop#2 id=4 pos=(7.50002,-11.8183) vel=(8.21945e-09,1.49012e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=4 pos=(7.49998,-11.47) vel=(5.72164e-08,-7.45059e-09) awake tile=(7,11) tid=-1 air
+drop#4 id=4 pos=(7.7522,-15.8183) vel=(-3.02353e-08,1.9907e-08) awake tile=(7,15) tid=-1 air
+drop#5 id=9 pos=(6.74411,-15.818) vel=(-7.16823e-09,1.70557e-09) awake tile=(6,15) tid=-1 air
+Drops total: 40
+
+==== Frame 14000 ====
+[mechanics]
+Pos: (4.584913, -13.223475)
+Vel: (0.000000, -4.246668)
+Grounded: no
+[physics]
+Mouse world: (17.4912, -13.286)
+Tile: (17, 13) id=-1 air
+drop#1 id=4 pos=(7.25714,-15.8165) vel=(-3.12017e-08,-9.20649e-09) awake tile=(7,15) tid=-1 air
+drop#2 id=4 pos=(7.50002,-11.8183) vel=(2.30677e-08,-1.8626e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=4 pos=(7.49998,-11.47) vel=(8.79314e-08,-5.58795e-09) awake tile=(7,11) tid=-1 air
+drop#4 id=4 pos=(7.7522,-15.8183) vel=(-2.28772e-08,1.32715e-08) awake tile=(7,15) tid=-1 air
+drop#5 id=9 pos=(6.74411,-15.818) vel=(-2.37718e-09,3.06257e-09) awake tile=(6,15) tid=-1 air
+Drops total: 40
+
+==== Frame 15000 ====
+[mechanics]
+Pos: (9.138934, -14.216334)
+Vel: (0.000000, 6.693333)
+Grounded: no
+[physics]
+Mouse world: (22.0452, -14.2788)
+Tile: (22, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-4.83952e-09,3.7268e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-4.89008e-09,-2.04897e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=6 pos=(14.501,-14.7737) vel=(1.88101e-05,-1.81483e-07) awake tile=(14,14) tid=-1 air
+drop#4 id=5 pos=(15.4993,-14.774) vel=(-0.000106583,1.74036e-07) awake tile=(15,14) tid=-1 air
+drop#5 id=6 pos=(15.4984,-14.4257) vel=(-0.000149611,6.96793e-08) awake tile=(15,14) tid=-1 air
+Drops total: 34
+
+==== Frame 16000 ====
+[mechanics]
+Pos: (13.138949, -14.332505)
+Vel: (6.000000, -6.700006)
+Grounded: no
+[physics]
+Mouse world: (26.0452, -14.395)
+Tile: (26, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.10501e-08,-1.02445e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(5.97629e-08,4.6566e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(15.4992,-14.7737) vel=(4.983e-05,-3.81537e-08) awake tile=(15,14) tid=-1 air
+drop#4 id=6 pos=(15.4984,-14.4254) vel=(6.98277e-05,1.9602e-08) awake tile=(15,14) tid=-1 air
+drop#5 id=6 pos=(16.469,-14.4259) vel=(0.00170783,4.26287e-05) awake tile=(16,14) tid=-1 air
+Drops total: 33
+
+==== Frame 17000 ====
+[mechanics]
+Pos: (18.452332, -12.815672)
+Vel: (0.000000, -2.801673)
+Grounded: no
+[physics]
+Mouse world: (28.2961, -14.4094)
+Tile: (28, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.49454e-08,2.51457e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.10435e-08,-2.79396e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.81,-15.1246) vel=(-7.79465e-07,2.31276e-06) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(19.3258,-13.3278) vel=(-0.438655,-2.85078) awake tile=(19,13) tid=-1 air
+drop#5 id=8 pos=(19.1034,-13.821) vel=(0.409514,-0.666274) awake tile=(19,13) tid=-1 air
+Drops total: 15
+
+==== Frame 18000 ====
+[mechanics]
+Pos: (18.452551, -12.848208)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (17.3901, -16.692)
+Tile: (17, 16) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(4.90199e-09,1.30385e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.64835e-08,-2.04891e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.81,-15.1246) vel=(1.42662e-06,-2.91496e-06) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(19.4155,-13.5107) vel=(-1.27862e-05,-2.89746e-06) awake tile=(19,13) tid=-1 air
+drop#5 id=8 pos=(19.1021,-13.8215) vel=(-6.72081e-06,-5.39979e-09) awake tile=(19,13) tid=-1 air
+Drops total: 27
+
+==== Frame 19000 ====
+[mechanics]
+Pos: (17.455839, -13.362374)
+Vel: (6.000000, -3.094161)
+Grounded: no
+[physics]
+Mouse world: (20.6746, -14.8311)
+Tile: (20, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.6502e-08,-1.30386e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.97032e-08,-2.79396e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.81,-15.1246) vel=(1.714e-06,-3.49092e-06) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(19.4151,-13.5113) vel=(-1.73475e-06,5.81181e-07) awake tile=(19,13) tid=-1 air
+drop#5 id=8 pos=(19.102,-13.8184) vel=(-7.12998e-07,-3.89642e-09) awake tile=(19,13) tid=-1 air
+Drops total: 27
+
+==== Frame 20000 ====
+[mechanics]
+Pos: (17.585001, -14.185001)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (18.6163, -14.5288)
+Tile: (18, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.13249e-09,1.1176e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.38419e-08,-2.60771e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.81,-15.1246) vel=(-2.07861e-06,3.82426e-06) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(19.415,-13.5113) vel=(3.27329e-08,6.59837e-09) awake tile=(19,13) tid=-1 air
+drop#5 id=8 pos=(19.1019,-13.8183) vel=(2.10116e-08,2.28049e-08) awake tile=(19,13) tid=-1 air
+Drops total: 27
+
+==== Frame 21000 ====
+[mechanics]
+Pos: (17.585001, -14.185001)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (16.585, -14.9038)
+Tile: (16, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(4.79016e-09,1.18799e-14) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(2.21314e-08,-2.23517e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.81,-15.1246) vel=(-6.53816e-07,8.11271e-07) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(18.6429,-16.4916) vel=(-3.52202,-3.47455) awake tile=(18,16) tid=-1 air
+drop#5 id=8 pos=(19.0067,-17.4067) vel=(-0.617955,-0.0713614) awake tile=(19,17) tid=-1 air
+Drops total: 29
+
+==== Frame 22000 ====
+[mechanics]
+Pos: (19.166983, -16.491665)
+Vel: (6.000000, -1.412576)
+Grounded: yes
+[physics]
+Mouse world: (18.792, -17.4604)
+Tile: (18, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(5.422e-08,6.51897e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.64746e-07,-9.31191e-10) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.9427,-15.8157) vel=(-2.79397e-09,-8.3819e-09) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(17.2509,-16.7217) vel=(-0.00740485,0.696965) awake tile=(17,16) tid=-1 air
+drop#5 id=8 pos=(18.7317,-17.8156) vel=(0.685993,-1.06063) awake tile=(18,17) tid=-1 air
+Drops total: 21
+
+==== Frame 23000 ====
+[mechanics]
+Pos: (18.593254, -16.830641)
+Vel: (6.000000, 0.007678)
+Grounded: no
+[physics]
+Mouse world: (18.2183, -17.7994)
+Tile: (18, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-4.48571e-08,1.30376e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.23257e-07,-2.98019e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.9427,-15.8157) vel=(3.25963e-09,6.05359e-09) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(17.2162,-17.4689) vel=(-6.95121e-08,1.84931e-08) awake tile=(17,17) tid=-1 air
+drop#5 id=8 pos=(18.6842,-17.8186) vel=(4.93614e-08,-1.24976e-09) awake tile=(18,17) tid=-1 air
+Drops total: 18
+
+==== Frame 24000 ====
+[mechanics]
+Pos: (17.793179, -16.832670)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (17.4182, -17.8014)
+Tile: (17, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-4.50788e-08,-1.11799e-12) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.06099e-07,-2.42139e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.9427,-15.8157) vel=(-3.72529e-09,-1.39699e-09) awake tile=(16,15) tid=-1 air
+drop#4 id=8 pos=(17.1829,-17.4666) vel=(-2.10638e-09,-1.82817e-09) awake tile=(17,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 17
+
+==== Frame 25000 ====
+[mechanics]
+Pos: (17.793179, -16.832670)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (13.4807, -15.6452)
+Tile: (13, 15) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.33469e-08,8.38181e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.34092e-08,-2.3283e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.9427,-16.5619) vel=(-1.0507e-08,-3.71936) awake tile=(16,16) tid=-1 air
+drop#4 id=8 pos=(17.1829,-17.4666) vel=(1.17726e-09,2.10617e-09) awake tile=(17,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 20
+
+==== Frame 26000 ====
+[mechanics]
+Pos: (17.793179, -16.832670)
+Vel: (0.000000, -0.000000)
+Grounded: no
+[physics]
+Mouse world: (11.4807, -15.3014)
+Tile: (11, 15) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.63966e-08,4.65643e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(8.91349e-08,-1.21071e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(16.769,-17.3773) vel=(-0.688643,-2.00149) awake tile=(16,17) tid=-1 air
+drop#4 id=8 pos=(17.1821,-17.4716) vel=(-0.0041827,-6.88137e-05) awake tile=(17,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 26
+
+==== Frame 27000 ====
+[mechanics]
+Pos: (16.037697, -16.839853)
+Vel: (-6.000000, 0.016977)
+Grounded: no
+[physics]
+Mouse world: (9.7252, -15.3086)
+Tile: (9, 15) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-2.55431e-08,9.33138e-10) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-3.77321e-08,-4.65739e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(15.0338,-17.818) vel=(0.00253493,0.00070774) awake tile=(15,17) tid=-1 air
+drop#4 id=8 pos=(15.4068,-17.4551) vel=(0.155371,-1.00652) awake tile=(15,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 25
+
+==== Frame 28000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.83593, -15.65)
+Tile: (6, 15) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(7.8379e-09,-1.8627e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(5.08779e-08,-1.86264e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(12.5626,-17.8155) vel=(-3.23238e-08,-3.40403e-08) awake tile=(12,17) tid=-1 air
+drop#4 id=8 pos=(12.5622,-17.1141) vel=(-2.49047e-09,-6.12188e-09) awake tile=(12,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 22
+
+==== Frame 29000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (21.1484, -13.525)
+Tile: (21, 13) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.15112e-08,1.30385e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(4.68955e-08,-2.04891e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=5 pos=(12.5626,-17.8155) vel=(-1.36824e-09,3.56258e-08) awake tile=(12,17) tid=-1 air
+drop#4 id=8 pos=(12.5622,-17.1141) vel=(2.46526e-09,2.17716e-08) awake tile=(12,17) tid=-1 air
+drop#5 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+Drops total: 22
+
+==== Frame 30000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (26.6172, -7.77505)
+Tile: (26, 7) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.09812e-08,8.38186e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(8.78073e-08,-2.3283e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(-3.11184e-08,-2.84346e-08) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(3.26544e-10,-4.08167e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 31000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (25.9297, -8.4938)
+Tile: (25, 8) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.29246e-08,1.67637e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(7.14932e-08,-1.49011e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(-4.86895e-08,-3.5464e-08) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(-2.16885e-10,-5.78606e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 32000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (27.0547, -11.1188)
+Tile: (27, 11) id=2 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(5.0624e-08,3.72514e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.71722e-07,-2.42143e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(5.88698e-08,4.32466e-08) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(-4.74224e-09,3.17108e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 33000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (24.5859, -12.275)
+Tile: (24, 12) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(5.94117e-08,3.72483e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.51602e-07,-9.31301e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(6.54641e-08,2.77978e-08) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(9.5694e-09,1.82694e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 34000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (22.2422, -14.5563)
+Tile: (22, 14) id=6 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.41106e-09,-6.24793e-15) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.71696e-08,-5.21541e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(-2.43489e-08,-7.67918e-10) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(9.66413e-10,-6.01821e-09) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 35000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (22.5234, -18.65)
+Tile: (22, 18) id=1 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.21187e-09,1.49012e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(2.05834e-08,-1.25836e-14) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(-3.70918e-08,-2.4209e-08) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(4.41739e-09,-3.34463e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 36000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (22.5234, -19.4313)
+Tile: (22, 19) id=1 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.70122e-08,2.79387e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.98526e-08,-2.3283e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.8118,-17.1186) vel=(-2.87574e-08,-9.09687e-09) awake tile=(19,17) tid=-1 air
+drop#5 id=8 pos=(19.8162,-17.4669) vel=(-4.83907e-09,-4.63615e-08) awake tile=(19,17) tid=-1 air
+Drops total: 16
+
+==== Frame 37000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (19.3672, -19.4938)
+Tile: (19, 19) id=1 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.95e-08,-1.86291e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.97436e-08,-1.86252e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.7517,-17.0178) vel=(-1.41976e-10,-3.10862e-15) awake tile=(19,17) tid=7 solid
+drop#5 id=8 pos=(19.9822,-17.6058) vel=(-1.16529e-12,-1.46262) awake tile=(19,17) tid=7 solid
+Drops total: 16
+
+==== Frame 38000 ====
+[mechanics]
+Pos: (13.148431, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (23.3047, -15.4)
+Tile: (23, 15) id=7 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.89266e-08,1.4901e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.13819e-07,-2.42143e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.7517,-17.0178) vel=(-7.29515e-11,2.89768e-14) awake tile=(19,17) tid=7 solid
+drop#5 id=8 pos=(19.9822,-17.6329) vel=(-3.36026e-08,3.32729e-08) awake tile=(19,17) tid=7 solid
+Drops total: 16
+
+==== Frame 39000 ====
+[mechanics]
+Pos: (14.832403, -17.181299)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (28.9833, -13.8375)
+Tile: (28, 13) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-2.0936e-08,1.8628e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-4.30275e-08,-9.31392e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(18.686,-17.8157) vel=(-4.5402e-09,1.49012e-08) awake tile=(18,17) tid=-1 air
+drop#4 id=8 pos=(19.7517,-17.0178) vel=(-2.01288e-10,-1.98452e-14) awake tile=(19,17) tid=7 solid
+drop#5 id=8 pos=(19.9822,-17.6329) vel=(-4.38408e-08,2.64015e-09) awake tile=(19,17) tid=7 solid
+Drops total: 16
+
+==== Frame 40000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (22.5907, -13.9938)
+Tile: (22, 13) id=6 solid
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(5.14697e-09,-2.79397e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.97088e-08,-2.70083e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(19.7517,-17.0178) vel=(2.0348e-11,-1.44329e-14) awake tile=(19,17) tid=7 solid
+drop#4 id=8 pos=(19.9822,-17.6329) vel=(4.15552e-09,9.08269e-09) awake tile=(19,17) tid=7 solid
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.1391e-08,-1.03371e-15) awake tile=(17,9) tid=-1 air
+Drops total: 12
+
+==== Frame 41000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (23.5282, -16.8063)
+Tile: (23, 16) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.87929e-08,9.31211e-10) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.98235e-08,-2.79393e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(19.7517,-17.0178) vel=(-7.65973e-12,7.9936e-15) awake tile=(19,17) tid=7 solid
+drop#4 id=8 pos=(19.9822,-17.6329) vel=(1.81099e-08,1.79764e-08) awake tile=(19,17) tid=7 solid
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-6.98928e-10,5.58794e-09) awake tile=(17,9) tid=-1 air
+Drops total: 29
+
+==== Frame 42000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (21.0594, -17.2125)
+Tile: (21, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-5.49166e-08,1.02434e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.44564e-07,-3.63211e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.1127,-17.4779) vel=(0.805461,-0.15324) awake tile=(20,17) tid=-1 air
+drop#4 id=8 pos=(20.1498,-17.84) vel=(0.242473,-0.22585) awake tile=(20,17) tid=-1 air
+drop#5 id=8 pos=(17.5,-9.81431) vel=(5.61366e-09,-1.11759e-08) awake tile=(17,9) tid=-1 air
+Drops total: 40
+
+==== Frame 43000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (21.1532, -23.1188)
+Tile: (21, 23) out_of_bounds
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.83229e-08,2.79375e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(8.89369e-08,-9.31227e-10) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.5113,-18.795) vel=(-7.79648e-05,-0.000187749) awake tile=(20,18) tid=-1 air
+drop#4 id=8 pos=(21.3952,-29.3207) vel=(0.912124,-14.5608) awake tile=(21,29) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(9.6209e-09,5.17255e-16) awake tile=(17,9) tid=-1 air
+Drops total: 43
+
+==== Frame 44000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.3094, -19.6813)
+Tile: (19, 19) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-3.53643e-09,2.14205e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(8.43662e-09,8.38188e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.532,-19.3781) vel=(0.0622399,-3.28122) awake tile=(20,19) tid=-1 air
+drop#4 id=8 pos=(22.6705,-59.8462) vel=(0.848358,-27.2445) awake tile=(22,59) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-2.41141e-09,-4.72126e-15) awake tile=(17,9) tid=-1 air
+Drops total: 50
+
+==== Frame 45000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.8407, -19.275)
+Tile: (16, 19) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.00733e-08,2.14204e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-2.21104e-08,-1.39698e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.6258,-36.1575) vel=(0.0575521,-17.7955) awake tile=(20,36) oob
+drop#4 id=8 pos=(23.9483,-112.721) vel=(0.784462,-39.954) awake tile=(23,112) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(3.31258e-09,1.86264e-09) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 46000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.4969, -17.9313)
+Tile: (16, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.86255e-08,2.46914e-13) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-2.3073e-08,1.30384e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.7071,-71.7122) vel=(0.0534841,-30.3911) awake tile=(20,71) oob
+drop#4 id=8 pos=(25.0573,-179.599) vel=(0.729013,-50.9834) awake tile=(25,179) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-9.3471e-09,1.17613e-15) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 47000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.4969, -17.9313)
+Tile: (16, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.09815e-08,1.21072e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(7.51486e-08,-1.21072e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.7868,-128.612) vel=(0.0494971,-42.736) awake tile=(20,128) oob
+drop#4 id=8 pos=(26.1441,-267.199) vel=(0.674668,-61.7932) awake tile=(26,267) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(8.66323e-09,-9.31322e-10) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 48000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.4969, -17.9313)
+Tile: (16, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-5.41204e-08,3.72421e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.26896e-07,-2.98019e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.8576,-200.318) vel=(0.0459601,-53.6873) awake tile=(20,200) oob
+drop#4 id=8 pos=(27.1083,-366.139) vel=(0.626458,-71.3824) awake tile=(27,366) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(2.64015e-09,-7.38855e-15) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 49000 ====
+[mechanics]
+Pos: (17.903158, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.4969, -17.9313)
+Tile: (16, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.1998e-08,5.5895e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-2.32446e-08,-2.04898e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.8965,-249.53) vel=(0.0440118,-59.72) awake tile=(20,249) oob
+drop#4 id=8 pos=(27.6394,-430.353) vel=(0.599901,-76.6647) awake tile=(27,430) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.64356e-08,-3.45252e-16) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 50000 ====
+[mechanics]
+Pos: (16.417315, -17.181299)
+Vel: (-6.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (15.0111, -17.9313)
+Tile: (15, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.58523e-08,8.38191e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.58732e-08,-1.76951e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.9254,-290.877) vel=(0.0425694,-64.1859) awake tile=(20,290) oob
+drop#4 id=8 pos=(28.0326,-482.806) vel=(0.580241,-80.5752) awake tile=(28,482) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.7995e-08,-1.71582e-15) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 51000 ====
+[mechanics]
+Pos: (14.337117, -17.181299)
+Vel: (-6.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (12.9309, -17.9313)
+Tile: (12, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.76335e-08,2.14202e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.18408e-07,-3.81841e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.9526,-334.01) vel=(0.0412086,-68.399) awake tile=(20,334) oob
+drop#4 id=8 pos=(28.4035,-536.416) vel=(0.561693,-84.2644) awake tile=(28,536) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(9.09154e-09,-9.31322e-10) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 52000 ====
+[mechanics]
+Pos: (13.742774, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (12.274, -17.15)
+Tile: (12, 17) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-4.55279e-08,1.48999e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.36692e-07,-2.60765e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(20.9796,-381.046) vel=(0.0398581,-72.5803) awake tile=(20,381) oob
+drop#4 id=8 pos=(28.7716,-593.85) vel=(0.543285,-87.9258) awake tile=(28,593) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.64361e-08,-3.45402e-16) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 53000 ====
+[mechanics]
+Pos: (13.742774, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (9.96152, -15.1813)
+Tile: (9, 15) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.69651e-09,4.77111e-14) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.52446e-08,-7.4506e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0057,-430.822) vel=(0.0385519,-76.6246) awake tile=(21,430) oob
+drop#4 id=8 pos=(29.1277,-653.684) vel=(0.525481,-91.4672) awake tile=(29,653) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.7995e-08,-1.71627e-15) awake tile=(17,9) tid=-1 air
+Drops total: 60
+
+==== Frame 54000 ====
+[mechanics]
+Pos: (13.742774, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.9303, -8.65005)
+Tile: (16, 8) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(6.99564e-09,1.67654e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.29398e-09,-1.30392e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0197,-484.592) vel=(0.0179625,-80.632) awake tile=(21,484) oob
+drop#4 id=8 pos=(29.4806,-717.422) vel=(0.507836,-94.9767) awake tile=(29,717) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-9.3471e-09,1.17582e-15) awake tile=(17,9) tid=-1 air
+Drops total: 67
+
+==== Frame 55000 ====
+[mechanics]
+Pos: (13.742774, -17.181299)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (12.8053, -10.2438)
+Tile: (12, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.22196e-08,2.63214e-15) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(4.078e-08,-3.72529e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0318,-541.054) vel=(0.0173594,-84.5054) awake tile=(21,541) oob
+drop#4 id=8 pos=(29.8216,-783.516) vel=(0.490784,-98.3683) awake tile=(29,783) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-1.51653e-08,-1.97872e-16) awake tile=(17,9) tid=-1 air
+Drops total: 69
+
+==== Frame 56000 ====
+[mechanics]
+Pos: (14.428272, -17.181290)
+Vel: (6.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.3033, -10.275)
+Tile: (19, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(3.0349e-08,6.51895e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.70704e-08,4.65674e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0434,-600.117) vel=(0.0167765,-88.2486) awake tile=(21,600) oob
+drop#4 id=8 pos=(30.1512,-851.888) vel=(0.474305,-101.646) awake tile=(30,851) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(3.31258e-09,1.86264e-09) awake tile=(17,9) tid=-1 air
+Drops total: 65
+
+==== Frame 57000 ====
+[mechanics]
+Pos: (14.721644, -17.181290)
+Vel: (-6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.5966, -10.275)
+Tile: (19, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.55217e-09,1.02445e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.48951e-08,-2.14204e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0544,-660.162) vel=(0.0162267,-91.7794) awake tile=(21,660) oob
+drop#4 id=8 pos=(30.462,-920.714) vel=(0.458761,-104.738) awake tile=(30,920) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(9.6209e-09,5.17564e-16) awake tile=(17,9) tid=-1 air
+Drops total: 63
+
+==== Frame 58000 ====
+[mechanics]
+Pos: (10.861339, -17.181290)
+Vel: (-6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (15.7363, -10.275)
+Tile: (15, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.58767e-08,1.21072e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.02395e-08,-3.07336e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0648,-720.935) vel=(0.015708,-95.1105) awake tile=(21,720) oob
+drop#4 id=8 pos=(30.7553,-989.772) vel=(0.444097,-107.655) awake tile=(30,989) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-2.93299e-09,4.46955e-15) awake tile=(17,9) tid=-1 air
+Drops total: 58
+
+==== Frame 59000 ====
+[mechanics]
+Pos: (11.257734, -17.181290)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.1327, -10.275)
+Tile: (16, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-2.35815e-08,1.30386e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-3.68246e-08,-2.04892e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0746,-782.198) vel=(0.0152185,-98.2537) awake tile=(21,782) oob
+drop#4 id=8 pos=(31.0321,-1058.85) vel=(0.430259,-110.407) awake tile=(31,1058) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-9.79712e-09,8.3819e-09) awake tile=(17,9) tid=-1 air
+Drops total: 55
+
+==== Frame 60000 ====
+[mechanics]
+Pos: (15.021908, -17.181290)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.8969, -10.275)
+Tile: (19, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-1.43e-09,-6.15218e-15) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(3.59063e-09,-7.45058e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0841,-845.42) vel=(0.0147443,-101.299) awake tile=(21,845) oob
+drop#4 id=8 pos=(31.3002,-1129.65) vel=(0.416852,-113.074) awake tile=(31,1129) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(4.45244e-09,1.86264e-09) awake tile=(17,9) tid=-1 air
+Drops total: 55
+
+==== Frame 61000 ====
+[mechanics]
+Pos: (18.880783, -17.181286)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (23.6569, -10.275)
+Tile: (23, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.02856e-08,5.58791e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(7.42759e-08,-2.42144e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.0935,-912.279) vel=(0.014273,-104.326) awake tile=(21,912) oob
+drop#4 id=8 pos=(31.5667,-1204.03) vel=(0.403527,-115.724) awake tile=(31,1204) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-8.19454e-09,2.05761e-15) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 62000 ====
+[mechanics]
+Pos: (19.474060, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (24.3491, -10.275)
+Tile: (24, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.19484e-08,-1.67638e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(8.16523e-08,-2.04891e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1022,-977.499) vel=(0.0138398,-107.108) awake tile=(21,977) oob
+drop#4 id=8 pos=(31.8116,-1276.17) vel=(0.39128,-118.16) awake tile=(31,1276) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-8.53064e-09,-1.21072e-08) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 63000 ====
+[mechanics]
+Pos: (19.474060, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (24.3491, -10.275)
+Tile: (24, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.00052e-08,1.11758e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.25128e-08,-7.45055e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1106,-1044.41) vel=(0.0134198,-109.806) awake tile=(21,1044) oob
+drop#4 id=8 pos=(32.049,-1349.75) vel=(0.377749,-119.999) awake tile=(32,1349) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-4.54029e-09,2.22481e-15) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 64000 ====
+[mechanics]
+Pos: (18.285385, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (18.1291, -14.775)
+Tile: (18, 14) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-3.76047e-09,1.21086e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(2.79201e-09,-1.58331e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1194,-1118.58) vel=(0.01298,-112.63) awake tile=(21,1118) oob
+drop#4 id=8 pos=(32.2939,-1429.75) vel=(0.357746,-119.999) awake tile=(32,1429) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(-1.51653e-08,-1.97782e-16) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 65000 ====
+[mechanics]
+Pos: (18.285385, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.6604, -13.9313)
+Tile: (19, 13) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.58162e-08,-5.58785e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(9.78462e-08,-2.04891e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1274,-1190.76) vel=(0.0125755,-115.227) awake tile=(21,1190) oob
+drop#4 id=8 pos=(32.5146,-1505.75) vel=(0.339726,-120) awake tile=(32,1505) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.97927e-09,-4.71988e-15) awake tile=(17,9) tid=-1 air
+Drops total: 53
+
+==== Frame 66000 ====
+[mechanics]
+Pos: (18.285385, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (19.6604, -13.9313)
+Tile: (19, 13) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(4.91959e-09,1.86265e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(2.26635e-08,-9.31324e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1353,-1264.56) vel=(0.0121837,-117.744) awake tile=(21,1264) oob
+drop#4 id=8 pos=(32.7241,-1581.75) vel=(0.322614,-120) awake tile=(32,1581) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(9.09154e-09,-9.31322e-10) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 67000 ====
+[mechanics]
+Pos: (18.780666, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (18.2494, -11.3688)
+Tile: (18, 11) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-8.75516e-09,-1.27463e-12) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-3.01539e-08,-3.3527e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1429,-1339.92) vel=(0.0117862,-120) awake tile=(21,1339) oob
+drop#4 id=8 pos=(32.9231,-1657.75) vel=(0.306363,-120) awake tile=(32,1657) oob
+drop#5 id=8 pos=(17.5,-9.81431) vel=(1.31521e-09,2.39104e-16) awake tile=(17,9) tid=-1 air
+Drops total: 52
+
+==== Frame 68000 ====
+[mechanics]
+Pos: (17.294823, -17.181286)
+Vel: (-6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (17.5448, -10.8063)
+Tile: (17, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(5.8907e-09,1.41546e-12) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(3.60059e-08,-2.23524e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1501,-1415.92) vel=(0.0111925,-120) awake tile=(21,1415) oob
+drop#4 id=8 pos=(33.1121,-1733.75) vel=(0.290931,-120) awake tile=(33,1733) oob
+drop#5 id=8 pos=(17.5,-10.9883) vel=(1.93203e-09,-4.67796) awake tile=(17,10) tid=-1 air
+Drops total: 53
+
+==== Frame 69000 ====
+[mechanics]
+Pos: (17.195766, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (18.1958, -10.775)
+Tile: (18, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(1.45197e-08,-8.38181e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(6.175e-08,-2.32831e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.157,-1491.92) vel=(0.0106287,-120) awake tile=(21,1491) oob
+drop#4 id=8 pos=(33.2915,-1809.75) vel=(0.276276,-120) awake tile=(33,1809) oob
+drop#5 id=5 pos=(21.4149,-1491.59) vel=(0.00509567,-120) awake tile=(21,1491) oob
+Drops total: 51
+
+==== Frame 70000 ====
+[mechanics]
+Pos: (17.195766, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (16.6645, -10.8375)
+Tile: (16, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(4.8371e-08,-7.45084e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(1.27672e-07,-4.09781e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1634,-1565.92) vel=(0.0101071,-120) awake tile=(21,1565) oob
+drop#4 id=8 pos=(33.4576,-1883.75) vel=(0.262717,-120) awake tile=(33,1883) oob
+drop#5 id=5 pos=(21.418,-1565.59) vel=(0.00484558,-120) awake tile=(21,1565) oob
+Drops total: 51
+
+==== Frame 71000 ====
+[mechanics]
+Pos: (17.195766, -17.181286)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (18.6645, -9.83754)
+Tile: (18, 9) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(2.85208e-09,-1.67638e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(2.42014e-08,-3.53903e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1698,-1643.92) vel=(0.00958489,-120) awake tile=(21,1643) oob
+drop#4 id=8 pos=(33.6238,-1961.75) vel=(0.249144,-120) awake tile=(33,1961) oob
+drop#5 id=5 pos=(21.4211,-1643.59) vel=(0.00459524,-120) awake tile=(21,1643) oob
+Drops total: 51
+
+==== Frame 72000 ====
+[mechanics]
+Pos: (16.304260, -17.181286)
+Vel: (-6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (8.36676, -10.275)
+Tile: (8, 10) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-6.67731e-08,1.76942e-08) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-1.65347e-07,-1.76947e-08) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1757,-1719.92) vel=(0.00910209,-120) awake tile=(21,1719) oob
+drop#4 id=8 pos=(33.7775,-2037.75) vel=(0.236594,-120) awake tile=(33,2037) oob
+drop#5 id=5 pos=(21.4239,-1719.59) vel=(0.00436377,-120) awake tile=(21,1719) oob
+Drops total: 51
+
+==== Frame 73000 ====
+[mechanics]
+Pos: (12.441032, -17.181286)
+Vel: (-6.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (6.19103, -11.4313)
+Tile: (6, 11) id=-1 air
+drop#1 id=4 pos=(7.50002,-11.8183) vel=(-3.02865e-09,8.38189e-09) awake tile=(7,11) tid=-1 air
+drop#2 id=4 pos=(7.49998,-11.47) vel=(-5.68071e-09,-8.3819e-09) awake tile=(7,11) tid=-1 air
+drop#3 id=8 pos=(21.1815,-1797.92) vel=(0.00863185,-120) awake tile=(21,1797) oob
+drop#4 id=8 pos=(33.9271,-2115.75) vel=(0.224371,-120) awake tile=(33,2115) oob
+drop#5 id=5 pos=(21.4267,-1797.59) vel=(0.00413833,-120) awake tile=(21,1797) oob
+Drops total: 54
+
+==== Frame 74000 ====
+[mechanics]
+Pos: (8.755693, -17.181286)
+Vel: (-6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.63069, -16.4313)
+Tile: (6, 16) id=-1 air
+drop#1 id=4 pos=(7.50002,-13.5158) vel=(4.36917e-09,-5.63179) awake tile=(7,13) tid=-1 air
+drop#2 id=4 pos=(7.49998,-13.1675) vel=(-6.98398e-10,-5.63179) awake tile=(7,13) tid=-1 air
+drop#3 id=8 pos=(21.1862,-1875.92) vel=(0.00667659,-120) awake tile=(21,1875) oob
+drop#4 id=8 pos=(34.0691,-2193.75) vel=(0.21278,-120) awake tile=(34,2193) oob
+drop#5 id=5 pos=(21.4301,-1875.59) vel=(0.00543377,-120) awake tile=(21,1875) oob
+Drops total: 60
+
+==== Frame 75000 ====
+[mechanics]
+Pos: (8.811510, -17.181280)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.90526, -17.2438)
+Tile: (7, 17) id=1 solid
+drop#1 id=4 pos=(7.46705,-16.4809) vel=(0.0528932,0.0205891) awake tile=(7,16) tid=-1 air
+drop#2 id=4 pos=(7.5181,-16.1349) vel=(0.0888123,0.0153667) awake tile=(7,16) tid=-1 air
+drop#3 id=8 pos=(21.1905,-1955.92) vel=(0.00632305,-120) awake tile=(21,1955) oob
+drop#4 id=8 pos=(34.2071,-2273.75) vel=(0.201513,-120) awake tile=(34,2273) oob
+drop#5 id=5 pos=(21.4336,-1955.59) vel=(0.00514605,-120) awake tile=(21,1955) oob
+Drops total: 60
+
+==== Frame 76000 ====
+[mechanics]
+Pos: (8.811515, -17.181280)
+Vel: (0.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (6.62401, -17.5563)
+Tile: (6, 17) id=-1 air
+drop#1 id=4 pos=(7.41339,-17.1013) vel=(0.00708468,-3.39607) awake tile=(7,17) tid=-1 air
+drop#2 id=4 pos=(7.52971,-16.7567) vel=(0.0123815,-3.39766) awake tile=(7,16) tid=-1 air
+drop#3 id=8 pos=(21.1945,-2033.92) vel=(0.00599639,-120) awake tile=(21,2033) oob
+drop#4 id=8 pos=(34.3345,-2351.75) vel=(0.191102,-120) awake tile=(34,2351) oob
+drop#5 id=5 pos=(21.4368,-2033.59) vel=(0.00488019,-120) awake tile=(21,2033) oob
+Drops total: 61
+
+==== Frame 77000 ====
+[mechanics]
+Pos: (5.713192, -17.303364)
+Vel: (0.000000, -1.332300)
+Grounded: no
+[physics]
+Mouse world: (3.52569, -17.6471)
+Tile: (3, 17) id=5 air
+drop#1 id=4 pos=(4.54858,-17.3825) vel=(-5.94945,-0.496669) awake tile=(4,17) tid=-1 air
+drop#2 id=4 pos=(4.77412,-17.0682) vel=(-5.81957,-0.596576) awake tile=(4,17) tid=-1 air
+drop#3 id=8 pos=(21.1983,-2111.92) vel=(0.0056866,-120) awake tile=(21,2111) oob
+drop#4 id=8 pos=(34.4554,-2429.75) vel=(0.181229,-120) awake tile=(34,2429) oob
+drop#5 id=5 pos=(21.4399,-2111.59) vel=(0.00462807,-120) awake tile=(21,2111) oob
+Drops total: 61
+
+==== Frame 78000 ====
+[mechanics]
+Pos: (4.347533, -17.830774)
+Vel: (-6.000000, -0.536845)
+Grounded: no
+[physics]
+Mouse world: (2.16003, -18.1745)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.26299,-17.5457) vel=(0.117952,-0.0890347) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(3.00021,-18.359) vel=(0.259719,-2.5204) awake tile=(3,18) tid=5 air
+drop#3 id=8 pos=(21.2017,-2185.92) vel=(0.0054075,-120) awake tile=(21,2185) oob
+drop#4 id=8 pos=(34.5643,-2503.75) vel=(0.172335,-120) awake tile=(34,2503) oob
+drop#5 id=5 pos=(21.4427,-2185.59) vel=(0.00440092,-120) awake tile=(21,2185) oob
+Drops total: 59
+
+==== Frame 79000 ====
+[mechanics]
+Pos: (3.101391, -17.833160)
+Vel: (0.000000, -0.000602)
+Grounded: yes
+[physics]
+Mouse world: (0.913891, -18.1769)
+Tile: (0, 18) id=1 solid
+drop#1 id=4 pos=(2.24537,-17.7471) vel=(-0.00151484,0.00659111) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.52106,-18.4666) vel=(0.00137126,-0.000549204) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.205,-2261.92) vel=(0.00513512,-120) awake tile=(21,2261) oob
+drop#4 id=8 pos=(34.6707,-2579.75) vel=(0.163654,-120) awake tile=(34,2579) oob
+drop#5 id=5 pos=(21.4454,-2261.59) vel=(0.00417924,-120) awake tile=(21,2261) oob
+Drops total: 58
+
+==== Frame 80000 ====
+[mechanics]
+Pos: (3.793142, -17.833132)
+Vel: (0.000000, -0.000005)
+Grounded: no
+[physics]
+Mouse world: (2.76189, -18.8019)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.24442,-17.7942) vel=(8.44038e-05,-0.000304352) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.52743,-18.4683) vel=(0.000306221,-0.000239726) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2082,-2337.92) vel=(0.00487645,-120) awake tile=(21,2337) oob
+drop#4 id=8 pos=(34.7716,-2655.75) vel=(0.15541,-120) awake tile=(34,2655) oob
+drop#5 id=5 pos=(21.448,-2337.59) vel=(0.00396872,-120) awake tile=(21,2337) oob
+Drops total: 58
+
+==== Frame 81000 ====
+[mechanics]
+Pos: (3.793118, -17.833132)
+Vel: (0.000000, -0.000000)
+Grounded: no
+[physics]
+Mouse world: (2.79312, -18.1456)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.24429,-17.7943) vel=(1.51094e-07,-5.52103e-07) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.52946,-18.4683) vel=(1.90682e-07,-3.74631e-07) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2112,-2413.92) vel=(0.00463082,-120) awake tile=(21,2413) oob
+drop#4 id=8 pos=(34.8675,-2731.75) vel=(0.147582,-120) awake tile=(34,2731) oob
+drop#5 id=5 pos=(21.4505,-2413.59) vel=(0.00376881,-120) awake tile=(21,2413) oob
+Drops total: 58
+
+==== Frame 82000 ====
+[mechanics]
+Pos: (3.793118, -17.833132)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (3.16812, -16.6456)
+Tile: (3, 16) id=-1 air
+drop#1 id=4 pos=(2.24429,-17.7943) vel=(5.05749e-08,-1.77649e-07) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.52999,-18.4683) vel=(1.28316e-09,-1.36997e-07) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2142,-2493.92) vel=(0.00438561,-120) awake tile=(21,2493) oob
+drop#4 id=8 pos=(34.9632,-2811.75) vel=(0.139767,-120) awake tile=(34,2811) oob
+drop#5 id=5 pos=(21.4529,-2493.59) vel=(0.00356925,-120) awake tile=(21,2493) oob
+Drops total: 58
+
+==== Frame 83000 ====
+[mechanics]
+Pos: (3.793118, -17.833132)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (2.98062, -16.6456)
+Tile: (2, 16) id=-1 air
+drop#1 id=4 pos=(2.24429,-17.7943) vel=(4.58245e-08,-1.76173e-07) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.53013,-18.4683) vel=(-1.49681e-08,-2.20636e-07) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.217,-2571.92) vel=(0.00415904,-120) awake tile=(21,2571) oob
+drop#4 id=8 pos=(35.0516,-2889.75) vel=(0.132547,-120) awake tile=(35,2889) oob
+drop#5 id=5 pos=(21.4552,-2571.59) vel=(0.00338485,-120) awake tile=(21,2571) oob
+Drops total: 59
+
+==== Frame 84000 ====
+[mechanics]
+Pos: (3.138330, -17.832935)
+Vel: (0.000000, 0.001580)
+Grounded: no
+[physics]
+Mouse world: (1.20083, -17.4892)
+Tile: (1, 17) id=1 solid
+drop#1 id=4 pos=(2.23797,-17.7809) vel=(-0.0449393,-0.62992) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.55368,-18.4661) vel=(-0.0038574,0.00184667) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2196,-2649.92) vel=(0.00394417,-120) awake tile=(21,2649) oob
+drop#4 id=8 pos=(35.1354,-2967.75) vel=(0.125699,-120) awake tile=(35,2967) oob
+drop#5 id=5 pos=(21.4573,-2649.59) vel=(0.00320998,-120) awake tile=(21,2649) oob
+Drops total: 58
+
+==== Frame 85000 ====
+[mechanics]
+Pos: (3.138863, -17.832972)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (2.45136, -15.458)
+Tile: (2, 15) id=-1 air
+drop#1 id=4 pos=(2.23474,-17.8315) vel=(-2.92118e-09,5.04282e-09) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.55378,-18.4667) vel=(1.16717e-08,1.66347e-08) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2222,-2729.92) vel=(0.00373532,-120) awake tile=(21,2729) oob
+drop#4 id=8 pos=(35.2169,-3047.75) vel=(0.119043,-120) awake tile=(35,3047) oob
+drop#5 id=5 pos=(21.4594,-2729.59) vel=(0.00304001,-120) awake tile=(21,2729) oob
+Drops total: 59
+
+==== Frame 86000 ====
+[mechanics]
+Pos: (3.142905, -17.833416)
+Vel: (0.000000, 0.000088)
+Grounded: no
+[physics]
+Mouse world: (6.61165, -13.7084)
+Tile: (6, 13) id=-1 air
+drop#1 id=4 pos=(2.23902,-17.8503) vel=(-8.05517e-05,0.000188142) awake tile=(2,17) tid=5 air
+drop#2 id=4 pos=(2.5551,-18.4697) vel=(-0.000110625,8.11465e-05) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2245,-2805.92) vel=(0.00354716,-120) awake tile=(21,2805) oob
+drop#4 id=8 pos=(35.2904,-3123.75) vel=(0.113047,-120) awake tile=(35,3123) oob
+drop#5 id=5 pos=(21.4613,-2805.59) vel=(0.00288688,-120) awake tile=(21,2805) oob
+Drops total: 59
+
+==== Frame 87000 ====
+[mechanics]
+Pos: (3.097330, -17.835974)
+Vel: (-6.000000, 0.029912)
+Grounded: yes
+[physics]
+Mouse world: (6.22233, -14.0547)
+Tile: (6, 14) id=-1 air
+drop#1 id=4 pos=(2.18092,-18.1186) vel=(0,0.00475414) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.51669,-18.4665) vel=(-0.0504658,0.0149957) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2268,-2887.92) vel=(0.00294296,-120) awake tile=(21,2887) oob
+drop#4 id=8 pos=(35.3655,-3205.75) vel=(0.106915,-120) awake tile=(35,3205) oob
+drop#5 id=5 pos=(21.4632,-2887.59) vel=(0.00278055,-120) awake tile=(21,2887) oob
+Drops total: 59
+
+==== Frame 88000 ====
+[mechanics]
+Pos: (3.157069, -17.832720)
+Vel: (0.000000, 0.000493)
+Grounded: yes
+[physics]
+Mouse world: (2.84457, -18.3015)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.22138,-18.1194) vel=(-0.00754408,8.70877e-05) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.57229,-18.4694) vel=(-0.00336343,0.000947311) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2287,-2969.92) vel=(0.00274306,-120) awake tile=(21,2969) oob
+drop#4 id=8 pos=(35.4365,-3287.75) vel=(0.101116,-120) awake tile=(35,3287) oob
+drop#5 id=5 pos=(21.465,-2969.59) vel=(0.00264515,-120) awake tile=(21,2969) oob
+Drops total: 59
+
+==== Frame 89000 ====
+[mechanics]
+Pos: (3.452783, -17.835911)
+Vel: (-6.000000, 0.004304)
+Grounded: yes
+[physics]
+Mouse world: (3.04653, -18.3984)
+Tile: (3, 18) id=5 air
+drop#1 id=4 pos=(2.22,-18.1195) vel=(0.00095854,7.54935e-05) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.57172,-18.4689) vel=(0.000579513,-0.000240246) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2305,-3047.92) vel=(0.00260135,-120) awake tile=(21,3047) oob
+drop#4 id=8 pos=(35.5004,-3365.75) vel=(0.0958922,-120) awake tile=(35,3365) oob
+drop#5 id=5 pos=(21.4667,-3047.59) vel=(0.00250815,-120) awake tile=(21,3047) oob
+Drops total: 59
+
+==== Frame 90000 ====
+[mechanics]
+Pos: (3.146328, -17.833136)
+Vel: (0.000000, 0.002728)
+Grounded: yes
+[physics]
+Mouse world: (2.74008, -18.3644)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.2076,-18.1176) vel=(0.00584099,0.00344043) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.56288,-18.4647) vel=(0.00553371,0.00309369) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2321,-3125.92) vel=(0.00246696,-120) awake tile=(21,3125) oob
+drop#4 id=8 pos=(35.5611,-3443.75) vel=(0.0909381,-120) awake tile=(35,3443) oob
+drop#5 id=5 pos=(21.4683,-3125.59) vel=(0.00237843,-120) awake tile=(21,3125) oob
+Drops total: 59
+
+==== Frame 91000 ====
+[mechanics]
+Pos: (2.415000, -15.476933)
+Vel: (0.000000, 0.509055)
+Grounded: yes
+[physics]
+Mouse world: (2.04, -15.9144)
+Tile: (2, 15) id=-1 air
+drop#1 id=4 pos=(2.20987,-18.1176) vel=(-0.00380566,-0.000522465) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.56642,-18.4654) vel=(-0.00180982,0.000633673) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2337,-3201.92) vel=(0.00234269,-120) awake tile=(21,3201) oob
+drop#4 id=8 pos=(35.6172,-3519.75) vel=(0.0863574,-120) awake tile=(35,3519) oob
+drop#5 id=5 pos=(21.4698,-3201.59) vel=(0.00225836,-120) awake tile=(21,3201) oob
+Drops total: 59
+
+==== Frame 92000 ====
+[mechanics]
+Pos: (2.415043, -16.833723)
+Vel: (0.000000, 0.030994)
+Grounded: yes
+[physics]
+Mouse world: (2.04004, -17.2712)
+Tile: (2, 17) id=5 air
+drop#1 id=4 pos=(2.18933,-18.1581) vel=(-0.458517,0.669625) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.5664,-18.4806) vel=(0.0527676,0.0725873) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2351,-3277.92) vel=(0.00222468,-120) awake tile=(21,3277) oob
+drop#4 id=8 pos=(35.6705,-3595.75) vel=(0.0820074,-120) awake tile=(35,3595) oob
+drop#5 id=5 pos=(21.4711,-3277.59) vel=(0.00214444,-120) awake tile=(21,3277) oob
+Drops total: 59
+
+==== Frame 93000 ====
+[mechanics]
+Pos: (3.718018, -17.831434)
+Vel: (0.000000, 0.351562)
+Grounded: yes
+[physics]
+Mouse world: (3.34302, -18.2689)
+Tile: (3, 18) id=5 air
+drop#1 id=4 pos=(2.1869,-18.139) vel=(-0.000115061,1.94254e-05) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.5658,-18.4682) vel=(-0.000173863,6.41725e-05) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2365,-3353.92) vel=(0.00211262,-120) awake tile=(21,3353) oob
+drop#4 id=8 pos=(35.7211,-3671.75) vel=(0.0778765,-120) awake tile=(35,3671) oob
+drop#5 id=5 pos=(21.4725,-3353.59) vel=(0.00203641,-120) awake tile=(21,3353) oob
+Drops total: 59
+
+==== Frame 94000 ====
+[mechanics]
+Pos: (3.126454, -17.832991)
+Vel: (0.000000, 0.001815)
+Grounded: yes
+[physics]
+Mouse world: (2.75145, -18.2705)
+Tile: (2, 18) id=5 air
+drop#1 id=4 pos=(2.19426,-18.13) vel=(-0.0264483,-0.00319546) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.53933,-18.4666) vel=(-0.00423136,0.00197246) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2378,-3431.92) vel=(0.00200348,-120) awake tile=(21,3431) oob
+drop#4 id=8 pos=(35.7703,-3749.75) vel=(0.0738532,-120) awake tile=(35,3749) oob
+drop#5 id=5 pos=(21.4738,-3431.59) vel=(0.00193094,-120) awake tile=(21,3431) oob
+Drops total: 59
+
+==== Frame 95000 ====
+[mechanics]
+Pos: (3.126424, -17.832987)
+Vel: (0.000000, 0.000017)
+Grounded: yes
+[physics]
+Mouse world: (2.93892, -13.6455)
+Tile: (2, 13) id=-1 air
+drop#1 id=4 pos=(2.19412,-18.1264) vel=(-1.58459e-06,1.89618e-05) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.53936,-18.4666) vel=(-5.92819e-06,1.34135e-05) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.239,-3507.92) vel=(0.00190256,-120) awake tile=(21,3507) oob
+drop#4 id=8 pos=(35.8159,-3825.75) vel=(0.0701331,-120) awake tile=(35,3825) oob
+drop#5 id=5 pos=(21.4749,-3507.59) vel=(0.00183352,-120) awake tile=(21,3507) oob
+Drops total: 59
+
+==== Frame 96000 ====
+[mechanics]
+Pos: (3.126424, -17.832987)
+Vel: (0.000000, -0.000001)
+Grounded: yes
+[physics]
+Mouse world: (2.93892, -13.8642)
+Tile: (2, 13) id=2 solid
+drop#1 id=4 pos=(2.19387,-18.1245) vel=(3.57303e-06,1.98402e-07) awake tile=(2,18) tid=5 air
+drop#2 id=4 pos=(2.53949,-18.4666) vel=(3.49948e-06,-2.4501e-07) awake tile=(2,18) tid=5 air
+drop#3 id=8 pos=(21.2402,-3583.92) vel=(0.00180672,-120) awake tile=(21,3583) oob
+drop#4 id=8 pos=(35.8591,-3901.75) vel=(0.0666003,-120) awake tile=(35,3901) oob
+drop#5 id=5 pos=(21.4761,-3583.59) vel=(0.00174106,-120) awake tile=(21,3583) oob
+Drops total: 59
+
+==== Frame 97000 ====
+[mechanics]
+Pos: (3.126231, -17.832958)
+Vel: (0.000000, 0.000907)
+Grounded: no
+[physics]
+Mouse world: (3.43873, -7.73921)
+Tile: (3, 7) id=2 solid
+drop#1 id=8 pos=(21.2414,-3661.92) vel=(0.00171338,-120) awake tile=(21,3661) oob
+drop#2 id=8 pos=(35.9013,-3979.75) vel=(0.0631595,-120) awake tile=(35,3979) oob
+drop#3 id=5 pos=(21.4772,-3661.59) vel=(0.00165101,-120) awake tile=(21,3661) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.199,-3661.6) vel=(0.00498705,-120) awake tile=(23,3661) oob
+Drops total: 54
+
+==== Frame 98000 ====
+[mechanics]
+Pos: (3.126472, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.28272, -10.3725)
+Tile: (3, 10) id=5 air
+drop#1 id=8 pos=(21.2425,-3741.92) vel=(0.00162266,-120) awake tile=(21,3741) oob
+drop#2 id=8 pos=(35.9422,-4059.75) vel=(0.0598152,-120) awake tile=(35,4059) oob
+drop#3 id=5 pos=(21.4783,-3741.59) vel=(0.00156357,-120) awake tile=(21,3741) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26865e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2022,-3741.6) vel=(0.00472297,-120) awake tile=(23,3741) oob
+Drops total: 49
+
+==== Frame 99000 ====
+[mechanics]
+Pos: (3.126472, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.28272, -10.3725)
+Tile: (3, 10) id=5 air
+drop#1 id=8 pos=(21.2434,-3815.92) vel=(0.00154302,-120) awake tile=(21,3815) oob
+drop#2 id=8 pos=(35.9782,-4133.75) vel=(0.0568795,-120) awake tile=(35,4133) oob
+drop#3 id=5 pos=(21.4792,-3815.59) vel=(0.00148653,-120) awake tile=(21,3815) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.30647e-11,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2051,-3815.6) vel=(0.00449117,-120) awake tile=(23,3815) oob
+Drops total: 49
+
+==== Frame 100000 ====
+[mechanics]
+Pos: (3.126472, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.12647, -8.7475)
+Tile: (3, 8) id=-1 air
+drop#1 id=8 pos=(21.2444,-3891.92) vel=(0.00146224,-120) awake tile=(21,3891) oob
+drop#2 id=8 pos=(36.0133,-4209.75) vel=(0.0540144,-120) awake tile=(36,4209) oob
+drop#3 id=5 pos=(21.4801,-3891.59) vel=(0.00141312,-120) awake tile=(21,3891) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2078,-3891.6) vel=(0.00426494,-120) awake tile=(23,3891) oob
+Drops total: 54
+
+==== Frame 101000 ====
+[mechanics]
+Pos: (2.415000, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.07125, -11.5913)
+Tile: (3, 11) id=-1 air
+drop#1 id=8 pos=(21.2454,-3973.92) vel=(0.00138139,-120) awake tile=(21,3973) oob
+drop#2 id=8 pos=(36.0491,-4291.75) vel=(0.0510847,-120) awake tile=(36,4291) oob
+drop#3 id=5 pos=(21.481,-3973.59) vel=(0.00133689,-120) awake tile=(21,3973) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26865e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2107,-3973.6) vel=(0.00403362,-120) awake tile=(23,3973) oob
+Drops total: 55
+
+==== Frame 102000 ====
+[mechanics]
+Pos: (2.415000, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (3.07125, -13.81)
+Tile: (3, 13) id=-1 air
+drop#1 id=8 pos=(21.2462,-4051.92) vel=(0.00130609,-120) awake tile=(21,4051) oob
+drop#2 id=8 pos=(36.0814,-4369.75) vel=(0.0484455,-120) awake tile=(36,4369) oob
+drop#3 id=5 pos=(21.4819,-4051.59) vel=(0.00126966,-120) awake tile=(21,4051) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.4147e-12,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2132,-4051.6) vel=(0.00382523,-120) awake tile=(23,4051) oob
+Drops total: 56
+
+==== Frame 103000 ====
+[mechanics]
+Pos: (2.415000, -18.185001)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (4.82125, -8.84125)
+Tile: (4, 8) id=-1 air
+drop#1 id=8 pos=(21.2471,-4131.92) vel=(0.00123693,-120) awake tile=(21,4131) oob
+drop#2 id=8 pos=(36.1129,-4449.75) vel=(0.0458803,-120) awake tile=(36,4449) oob
+drop#3 id=5 pos=(21.4827,-4131.59) vel=(0.0012023,-120) awake tile=(21,4131) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2157,-4131.6) vel=(0.00362268,-120) awake tile=(23,4131) oob
+Drops total: 57
+
+==== Frame 104000 ====
+[mechanics]
+Pos: (2.415000, -18.185041)
+Vel: (0.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (5.165, -8.43504)
+Tile: (5, 8) id=-1 air
+drop#1 id=8 pos=(21.2479,-4211.92) vel=(0.00117144,-120) awake tile=(21,4211) oob
+drop#2 id=8 pos=(36.1426,-4529.75) vel=(0.0434508,-120) awake tile=(36,4529) oob
+drop#3 id=5 pos=(21.4835,-4211.59) vel=(0.00113863,-120) awake tile=(21,4211) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2181,-4211.6) vel=(0.00343085,-120) awake tile=(23,4211) oob
+Drops total: 60
+
+==== Frame 105000 ====
+[mechanics]
+Pos: (2.415073, -18.187485)
+Vel: (0.000000, -0.077854)
+Grounded: yes
+[physics]
+Mouse world: (1.22757, -10.9375)
+Tile: (1, 10) id=-1 air
+drop#1 id=8 pos=(21.2486,-4289.92) vel=(0.00111092,-120) awake tile=(21,4289) oob
+drop#2 id=8 pos=(36.1701,-4607.75) vel=(0.0412061,-120) awake tile=(36,4607) oob
+drop#3 id=5 pos=(21.4842,-4289.59) vel=(0.00107981,-120) awake tile=(21,4289) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.61336e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2202,-4289.6) vel=(0.0032536,-120) awake tile=(23,4289) oob
+Drops total: 62
+
+==== Frame 106000 ====
+[mechanics]
+Pos: (2.417995, -17.066128)
+Vel: (0.000000, 0.483907)
+Grounded: no
+[physics]
+Mouse world: (1.2305, -9.81613)
+Tile: (1, 9) id=-1 air
+drop#1 id=8 pos=(21.2493,-4367.92) vel=(0.00105353,-120) awake tile=(21,4367) oob
+drop#2 id=8 pos=(36.1962,-4685.75) vel=(0.0390773,-120) awake tile=(36,4685) oob
+drop#3 id=5 pos=(21.4849,-4367.59) vel=(0.00102402,-120) awake tile=(21,4367) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.46584e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2223,-4367.6) vel=(0.00308551,-120) awake tile=(23,4367) oob
+Drops total: 62
+
+==== Frame 107000 ====
+[mechanics]
+Pos: (2.418603, -17.914846)
+Vel: (0.000000, -3.748434)
+Grounded: no
+[physics]
+Mouse world: (1.2311, -10.6648)
+Tile: (1, 10) id=-1 air
+drop#1 id=8 pos=(21.25,-4443.92) vel=(0.00100046,-120) awake tile=(21,4443) oob
+drop#2 id=8 pos=(36.2203,-4761.75) vel=(0.0371088,-120) awake tile=(36,4761) oob
+drop#3 id=5 pos=(21.4855,-4443.59) vel=(0.000972381,-120) awake tile=(21,4443) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2242,-4443.6) vel=(0.00293009,-120) awake tile=(23,4443) oob
+Drops total: 62
+
+==== Frame 108000 ====
+[mechanics]
+Pos: (2.415000, -18.185114)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (1.2275, -10.9351)
+Tile: (1, 10) id=-1 air
+drop#1 id=8 pos=(21.2506,-4521.92) vel=(0.000948771,-120) awake tile=(21,4521) oob
+drop#2 id=8 pos=(36.2437,-4839.75) vel=(0.0351917,-120) awake tile=(36,4839) oob
+drop#3 id=5 pos=(21.4861,-4521.59) vel=(0.000921845,-120) awake tile=(21,4521) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.11491e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.226,-4521.6) vel=(0.00277872,-120) awake tile=(23,4521) oob
+Drops total: 62
+
+==== Frame 109000 ====
+[mechanics]
+Pos: (4.020370, -18.181906)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (2.83287, -10.9319)
+Tile: (2, 10) id=-1 air
+drop#1 id=8 pos=(21.2512,-4597.92) vel=(0.00090098,-120) awake tile=(21,4597) oob
+drop#2 id=8 pos=(36.2654,-4915.75) vel=(0.033419,-120) awake tile=(36,4915) oob
+drop#3 id=5 pos=(21.4867,-4597.59) vel=(0.000875394,-120) awake tile=(21,4597) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26865e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2278,-4597.6) vel=(0.00263875,-120) awake tile=(23,4597) oob
+Drops total: 62
+
+==== Frame 110000 ====
+[mechanics]
+Pos: (4.580984, -18.181913)
+Vel: (6.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (3.39348, -10.9319)
+Tile: (3, 10) id=-1 air
+drop#1 id=8 pos=(21.2518,-4675.92) vel=(0.000854433,-120) awake tile=(21,4675) oob
+drop#2 id=8 pos=(36.2866,-4993.75) vel=(0.0316925,-120) awake tile=(36,4993) oob
+drop#3 id=5 pos=(21.4873,-4675.59) vel=(0.000830169,-120) awake tile=(21,4675) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2294,-4675.6) vel=(0.00250242,-120) awake tile=(23,4675) oob
+Drops total: 62
+
+==== Frame 111000 ====
+[mechanics]
+Pos: (4.580984, -18.181913)
+Vel: (6.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (3.39348, -10.9319)
+Tile: (3, 10) id=-1 air
+drop#1 id=8 pos=(21.2523,-4749.92) vel=(0.000812498,-120) awake tile=(21,4749) oob
+drop#2 id=8 pos=(36.3056,-5067.75) vel=(0.0301371,-120) awake tile=(36,5067) oob
+drop#3 id=5 pos=(21.4878,-4749.59) vel=(0.000789263,-120) awake tile=(21,4749) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2309,-4749.6) vel=(0.0023796,-120) awake tile=(23,4749) oob
+Drops total: 62
+
+==== Frame 112000 ====
+[mechanics]
+Pos: (3.689470, -18.181913)
+Vel: (0.000000, 8.000000)
+Grounded: no
+[physics]
+Mouse world: (2.50197, -10.9319)
+Tile: (2, 10) id=-1 air
+drop#1 id=8 pos=(21.2528,-4825.92) vel=(0.000771571,-120) awake tile=(21,4825) oob
+drop#2 id=8 pos=(36.3242,-5143.75) vel=(0.028619,-120) awake tile=(36,5143) oob
+drop#3 id=5 pos=(21.4883,-4825.59) vel=(0.000749506,-120) awake tile=(21,4825) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.61336e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2324,-4825.6) vel=(0.00225974,-120) awake tile=(23,4825) oob
+Drops total: 62
+
+==== Frame 113000 ====
+[mechanics]
+Pos: (5.789468, -15.132415)
+Vel: (6.000000, 1.793330)
+Grounded: no
+[physics]
+Mouse world: (4.50197, -7.9123)
+Tile: (4, 7) id=4 solid
+drop#1 id=8 pos=(21.2533,-4901.92) vel=(0.000732705,-120) awake tile=(21,4901) oob
+drop#2 id=8 pos=(36.3419,-5219.75) vel=(0.0271774,-120) awake tile=(36,5219) oob
+drop#3 id=5 pos=(21.4887,-4901.59) vel=(0.000711752,-120) awake tile=(21,4901) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26545e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2338,-4901.6) vel=(0.00214591,-120) awake tile=(23,4901) oob
+Drops total: 62
+
+==== Frame 114000 ====
+[mechanics]
+Pos: (7.689466, -15.940250)
+Vel: (6.000000, -4.250005)
+Grounded: no
+[physics]
+Mouse world: (6.50197, -8.69025)
+Tile: (6, 8) id=-1 air
+drop#1 id=8 pos=(21.2537,-4975.92) vel=(0.000696744,-120) awake tile=(21,4975) oob
+drop#2 id=8 pos=(36.3582,-5293.75) vel=(0.0258436,-120) awake tile=(36,5293) oob
+drop#3 id=5 pos=(21.4891,-4975.59) vel=(0.000676725,-120) awake tile=(21,4975) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.30647e-11,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2351,-4975.6) vel=(0.00204059,-120) awake tile=(23,4975) oob
+Drops total: 62
+
+==== Frame 115000 ====
+[mechanics]
+Pos: (9.275934, -16.834167)
+Vel: (6.000000, 0.000019)
+Grounded: yes
+[physics]
+Mouse world: (8.08843, -9.58417)
+Tile: (8, 9) id=-1 air
+drop#1 id=8 pos=(21.2541,-5051.92) vel=(0.000661648,-120) awake tile=(21,5051) oob
+drop#2 id=8 pos=(36.3742,-5369.75) vel=(0.0245418,-120) awake tile=(36,5369) oob
+drop#3 id=5 pos=(21.4896,-5051.59) vel=(0.000642562,-120) awake tile=(21,5051) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2363,-5051.6) vel=(0.0019378,-120) awake tile=(23,5051) oob
+Drops total: 62
+
+==== Frame 116000 ====
+[mechanics]
+Pos: (9.418024, -16.442511)
+Vel: (0.000000, 7.016099)
+Grounded: no
+[physics]
+Mouse world: (8.23052, -9.19251)
+Tile: (8, 9) id=-1 air
+drop#1 id=8 pos=(21.2545,-5125.92) vel=(0.000629174,-120) awake tile=(21,5125) oob
+drop#2 id=8 pos=(36.3889,-5443.75) vel=(0.0233373,-120) awake tile=(36,5443) oob
+drop#3 id=5 pos=(21.49,-5125.59) vel=(0.000611025,-120) awake tile=(21,5125) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26865e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2375,-5125.6) vel=(0.0018427,-120) awake tile=(23,5125) oob
+Drops total: 62
+
+==== Frame 117000 ====
+[mechanics]
+Pos: (8.818022, -14.016149)
+Vel: (0.000000, 0.809430)
+Grounded: no
+[physics]
+Mouse world: (7.63052, -6.76615)
+Tile: (7, 6) id=-1 air
+drop#1 id=8 pos=(21.2549,-5201.92) vel=(0.000597482,-120) awake tile=(21,5201) oob
+drop#2 id=8 pos=(36.4033,-5519.75) vel=(0.0221617,-120) awake tile=(36,5519) oob
+drop#3 id=5 pos=(21.4903,-5201.59) vel=(0.000580246,-120) awake tile=(21,5201) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.26865e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2386,-5201.6) vel=(0.00174988,-120) awake tile=(23,5201) oob
+Drops total: 62
+
+==== Frame 118000 ====
+[mechanics]
+Pos: (8.818022, -15.520678)
+Vel: (0.000000, -5.397239)
+Grounded: no
+[physics]
+Mouse world: (7.63052, -8.27068)
+Tile: (7, 8) id=-1 air
+drop#1 id=8 pos=(21.2553,-5277.92) vel=(0.000567385,-120) awake tile=(21,5277) oob
+drop#2 id=8 pos=(36.417,-5595.75) vel=(0.0210454,-120) awake tile=(36,5595) oob
+drop#3 id=5 pos=(21.4907,-5277.59) vel=(0.000551018,-120) awake tile=(21,5277) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2397,-5277.6) vel=(0.00166173,-120) awake tile=(23,5277) oob
+Drops total: 62
+
+==== Frame 119000 ====
+[mechanics]
+Pos: (9.108120, -16.833973)
+Vel: (6.000000, -0.000157)
+Grounded: yes
+[physics]
+Mouse world: (7.92062, -9.58397)
+Tile: (7, 9) id=-1 air
+drop#1 id=8 pos=(21.2556,-5353.92) vel=(0.000538805,-120) awake tile=(21,5353) oob
+drop#2 id=8 pos=(36.4299,-5671.75) vel=(0.0199853,-120) awake tile=(36,5671) oob
+drop#3 id=5 pos=(21.491,-5353.59) vel=(0.000523262,-120) awake tile=(21,5353) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.11491e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2407,-5353.6) vel=(0.00157803,-120) awake tile=(23,5353) oob
+Drops total: 62
+
+==== Frame 120000 ====
+[mechanics]
+Pos: (8.908414, -16.833971)
+Vel: (6.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (7.72091, -9.58397)
+Tile: (7, 9) id=-1 air
+drop#1 id=8 pos=(21.256,-5431.92) vel=(0.000510969,-120) awake tile=(21,5431) oob
+drop#2 id=8 pos=(36.4426,-5749.75) vel=(0.0189528,-120) awake tile=(36,5749) oob
+drop#3 id=5 pos=(21.4914,-5431.59) vel=(0.00049604,-120) awake tile=(21,5431) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(1.3188e-11,0) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2417,-5431.6) vel=(0.0014965,-120) awake tile=(23,5431) oob
+Drops total: 62
+
+==== Frame 121000 ====
+[mechanics]
+Pos: (8.014674, -17.053089)
+Vel: (0.000000, -1.991129)
+Grounded: no
+[physics]
+Mouse world: (6.82717, -9.80309)
+Tile: (6, 9) id=-1 air
+drop#1 id=8 pos=(21.2563,-5505.92) vel=(0.000482428,-120) awake tile=(21,5505) oob
+drop#2 id=8 pos=(36.454,-5823.75) vel=(0.0180226,-120) awake tile=(36,5823) oob
+drop#3 id=5 pos=(21.4916,-5505.59) vel=(0.000473164,-120) awake tile=(21,5505) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-3.84579e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2427,-5505.6) vel=(0.00142305,-120) awake tile=(23,5505) oob
+Drops total: 62
+
+==== Frame 122000 ====
+[mechanics]
+Pos: (11.370312, -17.184998)
+Vel: (6.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (10.1828, -9.935)
+Tile: (10, 9) id=-1 air
+drop#1 id=8 pos=(21.2566,-5581.92) vel=(0.000457643,-120) awake tile=(21,5581) oob
+drop#2 id=8 pos=(36.4651,-5899.75) vel=(0.0171148,-120) awake tile=(36,5899) oob
+drop#3 id=5 pos=(21.4919,-5581.59) vel=(0.000449891,-120) awake tile=(21,5581) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2435,-5581.6) vel=(0.00135137,-120) awake tile=(23,5581) oob
+Drops total: 62
+
+==== Frame 123000 ====
+[mechanics]
+Pos: (15.225865, -17.184998)
+Vel: (6.000000, -0.000000)
+Grounded: yes
+[physics]
+Mouse world: (14.0384, -9.935)
+Tile: (14, 9) id=-1 air
+drop#1 id=8 pos=(21.2569,-5659.92) vel=(0.000434,-120) awake tile=(21,5659) oob
+drop#2 id=8 pos=(36.4759,-5977.75) vel=(0.0162306,-120) awake tile=(36,5977) oob
+drop#3 id=5 pos=(21.4922,-5659.59) vel=(0.000426648,-120) awake tile=(21,5659) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2444,-5659.6) vel=(0.00128156,-120) awake tile=(23,5659) oob
+Drops total: 62
+
+==== Frame 124000 ====
+[mechanics]
+Pos: (19.081438, -17.184998)
+Vel: (6.000000, 0.000000)
+Grounded: yes
+[physics]
+Mouse world: (17.8939, -9.935)
+Tile: (17, 9) id=-1 air
+drop#1 id=8 pos=(21.2572,-5737.92) vel=(0.000411579,-120) awake tile=(21,5737) oob
+drop#2 id=8 pos=(36.4862,-6055.75) vel=(0.0153921,-120) awake tile=(36,6055) oob
+drop#3 id=5 pos=(21.4925,-5737.59) vel=(0.000404499,-120) awake tile=(21,5737) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-6.9406e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2452,-5737.6) vel=(0.00121535,-120) awake tile=(23,5737) oob
+Drops total: 62
+
+==== Frame 125000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (18.1905, -9.935)
+Tile: (18, 9) id=-1 air
+drop#1 id=8 pos=(21.2574,-5813.92) vel=(0.000390847,-120) awake tile=(21,5813) oob
+drop#2 id=8 pos=(36.4957,-6131.75) vel=(0.0146168,-120) awake tile=(36,6131) oob
+drop#3 id=5 pos=(21.4928,-5813.59) vel=(0.000384026,-120) awake tile=(21,5813) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2459,-5813.6) vel=(0.00115413,-120) awake tile=(23,5813) oob
+Drops total: 62
+
+==== Frame 126000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (18.1905, -9.935)
+Tile: (18, 9) id=-1 air
+drop#1 id=8 pos=(21.2576,-5889.92) vel=(0.000371159,-120) awake tile=(21,5889) oob
+drop#2 id=8 pos=(36.5047,-6207.75) vel=(0.0138805,-120) awake tile=(36,6207) oob
+drop#3 id=5 pos=(21.493,-5889.59) vel=(0.000364581,-120) awake tile=(21,5889) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.11491e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2467,-5889.6) vel=(0.00109599,-120) awake tile=(23,5889) oob
+Drops total: 62
+
+==== Frame 127000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (18.1905, -9.935)
+Tile: (18, 9) id=-1 air
+drop#1 id=8 pos=(21.2578,-5963.92) vel=(0.000352943,-120) awake tile=(21,5963) oob
+drop#2 id=8 pos=(36.513,-6281.75) vel=(0.0131992,-120) awake tile=(36,6281) oob
+drop#3 id=5 pos=(21.4932,-5963.59) vel=(0.000346594,-120) awake tile=(21,5963) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.22611e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2473,-5963.6) vel=(0.0010422,-120) awake tile=(23,5963) oob
+Drops total: 62
+
+==== Frame 128000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (23.5343, -23.2787)
+Tile: (23, 23) out_of_bounds
+drop#1 id=8 pos=(21.2581,-6039.92) vel=(0.000335164,-120) awake tile=(21,6039) oob
+drop#2 id=8 pos=(36.5212,-6357.75) vel=(0.0125344,-120) awake tile=(36,6357) oob
+drop#3 id=5 pos=(21.4934,-6039.59) vel=(0.000329125,-120) awake tile=(21,6039) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-6.74341e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.248,-6039.6) vel=(0.000989705,-120) awake tile=(23,6039) oob
+Drops total: 62
+
+==== Frame 129000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (25.7843, -17.4662)
+Tile: (25, 17) id=-1 air
+drop#1 id=8 pos=(21.2583,-6117.92) vel=(0.000317849,-120) awake tile=(21,6117) oob
+drop#2 id=8 pos=(36.5291,-6435.75) vel=(0.0118868,-120) awake tile=(36,6435) oob
+drop#3 id=5 pos=(21.4936,-6117.59) vel=(0.000312122,-120) awake tile=(21,6117) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2486,-6117.6) vel=(0.000938574,-120) awake tile=(23,6117) oob
+Drops total: 63
+
+==== Frame 130000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (23.3155, -23.5287)
+Tile: (23, 23) out_of_bounds
+drop#1 id=8 pos=(21.2585,-6197.92) vel=(0.000301018,-120) awake tile=(21,6197) oob
+drop#2 id=8 pos=(36.5368,-6515.75) vel=(0.0112574,-120) awake tile=(36,6515) oob
+drop#3 id=5 pos=(21.4939,-6197.59) vel=(0.000295594,-120) awake tile=(21,6197) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-8.1869e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2492,-6197.6) vel=(0.000888875,-120) awake tile=(23,6197) oob
+Drops total: 74
+
+==== Frame 131000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (29.6593, -14.9037)
+Tile: (29, 14) id=-1 air
+drop#1 id=8 pos=(21.2587,-6279.92) vel=(0.000284692,-120) awake tile=(21,6279) oob
+drop#2 id=8 pos=(36.5443,-6597.75) vel=(0.0106468,-120) awake tile=(36,6597) oob
+drop#3 id=5 pos=(21.4941,-6279.59) vel=(0.000279562,-120) awake tile=(21,6279) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(1.3188e-11,0) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2498,-6279.6) vel=(0.000840664,-120) awake tile=(23,6279) oob
+Drops total: 81
+
+==== Frame 132000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (27.7218, -20.7162)
+Tile: (27, 20) out_of_bounds
+drop#1 id=8 pos=(21.2589,-6361.92) vel=(0.00026925,-120) awake tile=(21,6361) oob
+drop#2 id=8 pos=(36.5514,-6679.75) vel=(0.0100693,-120) awake tile=(36,6679) oob
+drop#3 id=5 pos=(21.4942,-6361.59) vel=(0.000264398,-120) awake tile=(21,6361) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(-1.11491e-10,-4.44089e-16) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2503,-6361.6) vel=(0.000795067,-120) awake tile=(23,6361) oob
+Drops total: 86
+
+==== Frame 133000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (25.1593, -11.685)
+Tile: (25, 11) id=-1 air
+drop#1 id=8 pos=(21.2591,-6443.92) vel=(0.000254647,-120) awake tile=(21,6443) oob
+drop#2 id=8 pos=(36.5581,-6761.75) vel=(0.00952317,-120) awake tile=(36,6761) oob
+drop#3 id=5 pos=(21.4944,-6443.59) vel=(0.000250058,-120) awake tile=(21,6443) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(6.25421e-11,-1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2509,-6443.6) vel=(0.000751944,-120) awake tile=(23,6443) oob
+Drops total: 90
+
+==== Frame 134000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (19.753, -10.9037)
+Tile: (19, 10) id=-1 air
+drop#1 id=8 pos=(21.2592,-6527.92) vel=(0.000240508,-120) awake tile=(21,6527) oob
+drop#2 id=8 pos=(36.5645,-6845.75) vel=(0.0089944,-120) awake tile=(36,6845) oob
+drop#3 id=5 pos=(21.4945,-6527.59) vel=(0.000236173,-120) awake tile=(21,6527) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(1.3188e-11,0) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2514,-6527.6) vel=(0.000710193,-120) awake tile=(23,6527) oob
+Drops total: 100
+
+==== Frame 135000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (21.1905, -12.8412)
+Tile: (21, 12) id=-1 air
+drop#1 id=8 pos=(21.2594,-6611.92) vel=(0.000227153,-120) awake tile=(21,6611) oob
+drop#2 id=8 pos=(36.5707,-6929.75) vel=(0.00849499,-120) awake tile=(36,6929) oob
+drop#3 id=5 pos=(21.4947,-6611.59) vel=(0.000223057,-120) awake tile=(21,6611) oob
+drop#4 id=6 pos=(21.3776,-13.9822) vel=(9.46584e-11,1.6046e-09) awake tile=(21,13) tid=7 solid
+drop#5 id=8 pos=(23.2519,-6611.6) vel=(0.00067076,-120) awake tile=(23,6611) oob
+Drops total: 103
+
+==== Frame 136000 ====
+[mechanics]
+Pos: (19.378029, -17.184998)
+Vel: (0.000000, 0.000000)
+Grounded: no
+[physics]
+Mouse world: (23.628, -12.31)
+Tile: (23, 12) id=-1 air
+drop#1 id=8 pos=(21.2595,-6699.92) vel=(0.000213958,-120) awake tile=(21,6699) oob
+drop#2 id=8 pos=(36.5767,-7017.75) vel=(0.00800152,-120) awake tile=(36,7017) oob
+drop#3 id=5 pos=(21.4949,-6699.59) vel=(0.000210045,-120) awake tile=(21,6699) oob
+drop#4 id=6 pos=(21.3776,-14.1314) vel=(6.25416e-11,-1.62587) awake tile=(21,14) tid=-1 air
+drop#5 id=8 pos=(23.2524,-6699.6) vel=(0.000631795,-120) awake tile=(23,6699) oob
+Drops total: 105
+
+==== Frame 137000 ====
+[mechanics]
+Pos: (19.378029, -17.193163)
+Vel: (0.000000, -0.326667)
+Grounded: no
+[physics]
+Mouse world: (19.1593, -17.5369)
+Tile: (19, 17) id=-1 air
+drop#1 id=8 pos=(21.2597,-6785.92) vel=(0.000201804,-120) awake tile=(21,6785) oob
+drop#2 id=8 pos=(36.5823,-7103.75) vel=(0.00754697,-120) awake tile=(36,7103) oob
+drop#3 id=5 pos=(21.495,-6785.59) vel=(0.000198049,-120) awake tile=(21,6785) oob
+drop#4 id=6 pos=(21.3776,-17.8188) vel=(6.0341e-11,-8.46483) awake tile=(21,17) tid=-1 air
+drop#5 id=8 pos=(23.2528,-6785.6) vel=(0.000595904,-120) awake tile=(23,6785) oob
+Drops total: 107
+
+==== Frame 138000 ====
+[mechanics]
+Pos: (19.378029, -19.760220)
+Vel: (0.000000, -7.023336)
+Grounded: no
+[physics]
+Mouse world: (25.4405, -15.5727)
+Tile: (25, 15) id=-1 air
+drop#1 id=8 pos=(21.2599,-6867.92) vel=(0.000190858,-120) awake tile=(21,6867) oob
+drop#2 id=8 pos=(36.5873,-7185.75) vel=(0.00713763,-120) awake tile=(36,7185) oob
+drop#3 id=5 pos=(21.4952,-6867.59) vel=(0.000187307,-120) awake tile=(21,6867) oob
+drop#4 id=6 pos=(21.3776,-25.8192) vel=(5.83149e-11,-14.7614) awake tile=(21,25) oob
+drop#5 id=8 pos=(23.2532,-6867.6) vel=(0.000563583,-120) awake tile=(23,6867) oob
+Drops total: 109
+
+==== Frame 139000 ====
+[mechanics]
+Pos: (19.378029, -27.134718)
+Vel: (0.000000, -13.883323)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -17.5722)
+Tile: (28, 17) id=-1 air
+drop#1 id=8 pos=(21.26,-6951.92) vel=(0.000180261,-120) awake tile=(21,6951) oob
+drop#2 id=8 pos=(36.5921,-7269.75) vel=(0.00674131,-120) awake tile=(36,7269) oob
+drop#3 id=5 pos=(21.4953,-6951.59) vel=(0.000176907,-120) awake tile=(21,6951) oob
+drop#4 id=6 pos=(21.3776,-38.3977) vel=(5.63099e-11,-20.9925) awake tile=(21,38) oob
+drop#5 id=8 pos=(23.2536,-6951.6) vel=(0.00053229,-120) awake tile=(23,6951) oob
+Drops total: 111
+
+==== Frame 140000 ====
+[mechanics]
+Pos: (19.378029, -38.965488)
+Vel: (0.000000, -20.580000)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -29.403)
+Tile: (28, 29) out_of_bounds
+drop#1 id=8 pos=(21.2602,-7033.92) vel=(0.000170483,-120) awake tile=(21,7033) oob
+drop#2 id=8 pos=(36.5966,-7351.75) vel=(0.00637567,-120) awake tile=(36,7351) oob
+drop#3 id=5 pos=(21.4955,-7033.59) vel=(0.000167182,-120) awake tile=(21,7033) oob
+drop#4 id=6 pos=(21.3776,-54.8106) vel=(5.44192e-11,-26.8685) awake tile=(21,54) oob
+drop#5 id=8 pos=(23.2539,-7033.6) vel=(0.00050342,-120) awake tile=(23,7033) oob
+Drops total: 111
+
+==== Frame 141000 ====
+[mechanics]
+Pos: (19.378029, -55.829662)
+Vel: (0.000000, -27.440023)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -46.2672)
+Tile: (28, 46) out_of_bounds
+drop#1 id=8 pos=(21.2602,-7117.92) vel=(0.000161018,-120) awake tile=(21,7117) oob
+drop#2 id=8 pos=(36.6009,-7435.75) vel=(0.00602166,-120) awake tile=(36,7435) oob
+drop#3 id=5 pos=(21.4955,-7117.59) vel=(0.0001579,-120) awake tile=(21,7117) oob
+drop#4 id=6 pos=(21.3776,-75.7141) vel=(5.25481e-11,-32.6833) awake tile=(21,75) oob
+drop#5 id=8 pos=(23.2542,-7117.6) vel=(0.000475467,-120) awake tile=(23,7117) oob
+Drops total: 111
+
+==== Frame 142000 ====
+[mechanics]
+Pos: (19.378029, -76.924187)
+Vel: (0.000000, -34.136711)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -67.3617)
+Tile: (28, 67) out_of_bounds
+drop#1 id=8 pos=(21.2603,-7199.92) vel=(0.000152284,-120) awake tile=(21,7199) oob
+drop#2 id=8 pos=(36.6049,-7517.75) vel=(0.00569506,-120) awake tile=(36,7517) oob
+drop#3 id=5 pos=(21.4956,-7199.59) vel=(0.000149336,-120) awake tile=(21,7199) oob
+drop#4 id=6 pos=(21.3776,-99.9775) vel=(5.07837e-11,-38.1668) awake tile=(21,99) oob
+drop#5 id=8 pos=(23.2546,-7199.6) vel=(0.000449679,-120) awake tile=(23,7199) oob
+Drops total: 111
+
+==== Frame 143000 ====
+[mechanics]
+Pos: (19.378029, -103.278061)
+Vel: (0.000000, -40.996735)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -93.7156)
+Tile: (28, 93) out_of_bounds
+drop#1 id=8 pos=(21.2604,-7283.92) vel=(0.000143829,-120) awake tile=(21,7283) oob
+drop#2 id=8 pos=(36.6088,-7601.75) vel=(0.00537885,-120) awake tile=(36,7601) oob
+drop#3 id=5 pos=(21.4957,-7283.59) vel=(0.000141044,-120) awake tile=(21,7283) oob
+drop#4 id=6 pos=(21.3776,-128.65) vel=(4.90376e-11,-43.5931) awake tile=(21,128) oob
+drop#5 id=8 pos=(23.2549,-7283.6) vel=(0.000424711,-120) awake tile=(23,7283) oob
+Drops total: 111
+
+==== Frame 144000 ====
+[mechanics]
+Pos: (19.378029, -134.433960)
+Vel: (0.000000, -47.856758)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -124.871)
+Tile: (28, 124) out_of_bounds
+drop#1 id=8 pos=(21.2605,-7367.92) vel=(0.000135843,-120) awake tile=(21,7367) oob
+drop#2 id=8 pos=(36.6125,-7685.75) vel=(0.00508019,-120) awake tile=(36,7685) oob
+drop#3 id=5 pos=(21.4958,-7367.59) vel=(0.000133212,-120) awake tile=(21,7367) oob
+drop#4 id=6 pos=(21.3776,-161.053) vel=(4.73516e-11,-48.8329) awake tile=(21,161) oob
+drop#5 id=8 pos=(23.2552,-7367.6) vel=(0.000401129,-120) awake tile=(23,7367) oob
+Drops total: 111
+
+==== Frame 145000 ====
+[mechanics]
+Pos: (19.378029, -169.479919)
+Vel: (0.000000, -54.553448)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -159.917)
+Tile: (28, 159) out_of_bounds
+drop#1 id=8 pos=(21.2606,-7449.92) vel=(0.000128475,-120) awake tile=(21,7449) oob
+drop#2 id=8 pos=(36.6158,-7767.75) vel=(0.00480464,-120) awake tile=(36,7767) oob
+drop#3 id=5 pos=(21.4958,-7449.59) vel=(0.000125987,-120) awake tile=(21,7449) oob
+drop#4 id=6 pos=(21.3776,-196.161) vel=(4.57617e-11,-53.7741) awake tile=(21,196) oob
+drop#5 id=8 pos=(23.2554,-7449.6) vel=(0.000379372,-120) awake tile=(23,7449) oob
+Drops total: 111
+
+==== Frame 146000 ====
+[mechanics]
+Pos: (19.378029, -209.101944)
+Vel: (0.000000, -61.250137)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -199.539)
+Tile: (28, 199) out_of_bounds
+drop#1 id=8 pos=(21.2606,-7531.92) vel=(0.000121506,-120) awake tile=(21,7531) oob
+drop#2 id=8 pos=(36.619,-7849.75) vel=(0.00454404,-120) awake tile=(36,7849) oob
+drop#3 id=5 pos=(21.4959,-7531.59) vel=(0.000119154,-120) awake tile=(21,7531) oob
+drop#4 id=6 pos=(21.3776,-234.588) vel=(4.42251e-11,-58.5494) awake tile=(21,234) oob
+drop#5 id=8 pos=(23.2557,-7531.6) vel=(0.000358796,-120) awake tile=(23,7531) oob
+Drops total: 111
+
+==== Frame 147000 ====
+[mechanics]
+Pos: (19.378029, -253.300064)
+Vel: (0.000000, -67.946732)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -243.738)
+Tile: (28, 243) out_of_bounds
+drop#1 id=8 pos=(21.2607,-7613.92) vel=(0.000114916,-120) awake tile=(21,7613) oob
+drop#2 id=8 pos=(36.6221,-7931.75) vel=(0.00429758,-120) awake tile=(36,7931) oob
+drop#3 id=5 pos=(21.496,-7613.59) vel=(0.000112691,-120) awake tile=(21,7613) oob
+drop#4 id=6 pos=(21.3776,-276.221) vel=(4.27402e-11,-63.1643) awake tile=(21,276) oob
+drop#5 id=8 pos=(23.2559,-7613.6) vel=(0.000339335,-120) awake tile=(23,7613) oob
+Drops total: 111
+
+==== Frame 148000 ====
+[mechanics]
+Pos: (19.378029, -303.320923)
+Vel: (0.000000, -74.806595)
+Grounded: no
+[physics]
+Mouse world: (28.1593, -293.758)
+Tile: (28, 293) out_of_bounds
+drop#1 id=8 pos=(21.2608,-7697.92) vel=(0.000108535,-120) awake tile=(21,7697) oob
+drop#2 id=8 pos=(36.625,-8015.75) vel=(0.00405896,-120) awake tile=(36,8015) oob
+drop#3 id=5 pos=(21.4961,-7697.59) vel=(0.000106434,-120) awake tile=(21,7697) oob
+drop#4 id=6 pos=(21.3776,-322.081) vel=(4.12707e-11,-67.7311) awake tile=(21,322) oob
+drop#5 id=8 pos=(23.2561,-7697.6) vel=(0.000320493,-120) awake tile=(23,7697) oob
+Drops total: 111
+
+==== Frame 149000 ====
+[mechanics]
+Pos: (19.378029, -358.143707)
+Vel: (0.000000, -81.666458)
+Grounded: no
+[physics]
+Mouse world: (23.2218, -355.706)
+Tile: (23, 355) out_of_bounds
+drop#1 id=8 pos=(21.2609,-7781.92) vel=(0.000102509,-120) awake tile=(21,7781) oob
+drop#2 id=8 pos=(36.6277,-8099.75) vel=(0.00383359,-120) awake tile=(36,8099) oob
+drop#3 id=5 pos=(21.4962,-7781.59) vel=(0.000100524,-120) awake tile=(21,7781) oob
+drop#4 id=6 pos=(21.3776,-371.082) vel=(3.98517e-11,-72.1408) awake tile=(21,371) oob
+drop#5 id=8 pos=(23.2564,-7781.6) vel=(0.000302698,-120) awake tile=(23,7781) oob
+Drops total: 111
+
+==== Frame 150000 ====
+[mechanics]
+Pos: (19.378029, -417.768372)
+Vel: (0.000000, -88.526321)
+Grounded: no
+[physics]
+Mouse world: (23.0655, -415.737)
+Tile: (23, 415) out_of_bounds
+drop#1 id=8 pos=(21.261,-7865.92) vel=(9.68173e-05,-120) awake tile=(21,7865) oob
+drop#2 id=8 pos=(36.6303,-8183.75) vel=(0.00362073,-120) awake tile=(36,8183) oob
+drop#3 id=5 pos=(21.4962,-7865.59) vel=(9.49427e-05,-120) awake tile=(21,7865) oob
+drop#4 id=6 pos=(21.3776,-423.115) vel=(3.84815e-11,-76.3988) awake tile=(21,423) oob
+drop#5 id=8 pos=(23.2566,-7865.6) vel=(0.000285891,-120) awake tile=(23,7865) oob
+Drops total: 111
+
+==== Frame 151000 ====
+[mechanics]
+Pos: (21.078035, -482.194946)
+Vel: (0.000000, -95.386185)
+Grounded: no
+[physics]
+Mouse world: (24.7655, -480.164)
+Tile: (24, 480) out_of_bounds
+drop#1 id=8 pos=(21.261,-7949.92) vel=(9.14416e-05,-120) awake tile=(21,7949) oob
+drop#2 id=8 pos=(36.6328,-8267.75) vel=(0.00341969,-120) awake tile=(36,8267) oob
+drop#3 id=5 pos=(21.4963,-7949.59) vel=(8.96711e-05,-120) awake tile=(21,7949) oob
+drop#4 id=6 pos=(21.3776,-478.076) vel=(3.71585e-11,-80.5105) awake tile=(21,478) oob
+drop#5 id=8 pos=(23.2568,-7949.6) vel=(0.000270017,-120) awake tile=(23,7949) oob
+Drops total: 110
+
+==== Frame 152000 ====
+[mechanics]
+Pos: (21.078035, -549.719299)
+Vel: (0.000000, -102.082718)
+Grounded: no
+[physics]
+Mouse world: (24.7655, -547.688)
+Tile: (24, 547) out_of_bounds
+drop#1 id=8 pos=(21.2611,-8031.92) vel=(8.64819e-05,-120) awake tile=(21,8031) oob
+drop#2 id=8 pos=(36.6351,-8349.75) vel=(0.00323421,-120) awake tile=(36,8349) oob
+drop#3 id=5 pos=(21.4964,-8031.59) vel=(8.48074e-05,-120) awake tile=(21,8031) oob
+drop#4 id=6 pos=(21.3776,-534.456) vel=(3.59108e-11,-84.3879) awake tile=(21,534) oob
+drop#5 id=8 pos=(23.2569,-8031.6) vel=(0.000255372,-120) awake tile=(23,8031) oob
+Drops total: 110
+
+==== Frame 153000 ====
+[mechanics]
+Pos: (22.678041, -621.819641)
+Vel: (-6.000000, -108.779251)
+Grounded: no
+[physics]
+Mouse world: (26.3655, -619.788)
+Tile: (26, 619) out_of_bounds
+drop#1 id=8 pos=(21.2612,-8113.92) vel=(8.17913e-05,-120) awake tile=(21,8113) oob
+drop#2 id=8 pos=(36.6372,-8431.75) vel=(0.00305879,-120) awake tile=(36,8431) oob
+drop#3 id=5 pos=(21.4965,-8113.59) vel=(8.02075e-05,-120) awake tile=(21,8113) oob
+drop#4 id=6 pos=(21.3776,-593.44) vel=(3.4705e-11,-88.1352) awake tile=(21,593) oob
+drop#5 id=8 pos=(23.2571,-8113.6) vel=(0.000241521,-120) awake tile=(23,8113) oob
+Drops total: 110
+
+==== Frame 154000 ====
+[mechanics]
+Pos: (20.978035, -698.495972)
+Vel: (0.000000, -115.475784)
+Grounded: no
+[physics]
+Mouse world: (24.6655, -696.465)
+Tile: (24, 696) out_of_bounds
+drop#1 id=8 pos=(21.2613,-8195.92) vel=(7.7355e-05,-120) awake tile=(21,8195) oob
+drop#2 id=8 pos=(36.6393,-8513.75) vel=(0.00289289,-120) awake tile=(36,8513) oob
+drop#3 id=5 pos=(21.4966,-8195.59) vel=(7.58572e-05,-120) awake tile=(21,8195) oob
+drop#4 id=6 pos=(21.3776,-654.941) vel=(3.35397e-11,-91.7565) awake tile=(21,654) oob
+drop#5 id=8 pos=(23.2572,-8195.6) vel=(0.000228421,-120) awake tile=(23,8195) oob
+Drops total: 110
+
+==== Frame 155000 ====
+[mechanics]
+Pos: (20.978035, -779.489075)
+Vel: (0.000000, -119.999985)
+Grounded: no
+[physics]
+Mouse world: (24.6655, -777.458)
+Tile: (24, 777) out_of_bounds
+drop#1 id=8 pos=(21.2614,-8277.92) vel=(7.31593e-05,-120) awake tile=(21,8277) oob
+drop#2 id=8 pos=(36.6412,-8595.75) vel=(0.00273598,-120) awake tile=(36,8595) oob
+drop#3 id=5 pos=(21.4966,-8277.59) vel=(7.17428e-05,-120) awake tile=(21,8277) oob
+drop#4 id=6 pos=(21.3776,-718.873) vel=(3.24135e-11,-95.2563) awake tile=(21,718) oob
+drop#5 id=8 pos=(23.2574,-8277.6) vel=(0.000216032,-120) awake tile=(23,8277) oob
+Drops total: 110
+
+==== Frame 156000 ====
+[mechanics]
+Pos: (20.978035, -861.489075)
+Vel: (0.000000, -119.999992)
+Grounded: no
+[physics]
+Mouse world: (24.6655, -859.458)
+Tile: (24, 859) out_of_bounds
+drop#1 id=8 pos=(21.2614,-8359.92) vel=(6.91912e-05,-120) awake tile=(21,8359) oob
+drop#2 id=8 pos=(36.643,-8677.75) vel=(0.00258758,-120) awake tile=(36,8677) oob
+drop#3 id=5 pos=(21.4967,-8359.59) vel=(6.78515e-05,-120) awake tile=(21,8359) oob
+drop#4 id=6 pos=(21.3776,-785.155) vel=(3.13252e-11,-98.6386) awake tile=(21,785) oob
+drop#5 id=8 pos=(23.2576,-8359.6) vel=(0.000204314,-120) awake tile=(23,8359) oob
+Drops total: 110
+
+==== Frame 157000 ====
+[mechanics]
+Pos: (20.978035, -971.489075)
+Vel: (0.000000, -119.999985)
+Grounded: no
+[physics]
+Mouse world: (24.6655, -969.458)
+Tile: (24, 969) out_of_bounds
+drop#1 id=8 pos=(21.2615,-8469.92) vel=(6.42041e-05,-120) awake tile=(21,8469) oob
+drop#2 id=8 pos=(36.6453,-8787.75) vel=(0.00240108,-120) awake tile=(36,8787) oob
+drop#3 id=5 pos=(21.4968,-8469.59) vel=(6.2961e-05,-120) awake tile=(21,8469) oob
+drop#4 id=6 pos=(21.3776,-877.623) vel=(2.99224e-11,-102.998) awake tile=(21,877) oob
+drop#5 id=8 pos=(23.2578,-8469.6) vel=(0.000189588,-120) awake tile=(23,8469) oob
+Drops total: 110
+
+==== Frame 158000 ====
+[mechanics]
+Pos: (23.175022, -1155.342407)
+Vel: (0.000000, -119.999992)
+Grounded: no
+[physics]
+Mouse world: (26.8625, -1153.31)
+Tile: (26, 1153) out_of_bounds
+drop#1 id=8 pos=(21.2617,-8653.92) vel=(5.3657e-05,-120) awake tile=(21,8653) oob
+drop#2 id=8 pos=(36.6487,-8971.75) vel=(0.00211866,-120) awake tile=(36,8971) oob
+drop#3 id=5 pos=(21.497,-8653.59) vel=(5.85511e-05,-120) awake tile=(21,8653) oob
+drop#4 id=6 pos=(21.3776,-1040.94) vel=(2.77148e-11,-109.858) awake tile=(21,1040) oob
+drop#5 id=8 pos=(23.2581,-8653.6) vel=(0.000167289,-120) awake tile=(23,8653) oob
+Drops total: 110
+
+==== Frame 159000 ====
+[mechanics]
+Pos: (22.975420, -1345.337524)
+Vel: (-6.000000, -119.850304)
+Grounded: no
+[physics]
+Mouse world: (26.6629, -1343.31)
+Tile: (26, 1343) out_of_bounds
+drop#1 id=8 pos=(21.2617,-8843.92) vel=(4.71531e-05,-120) awake tile=(21,8843) oob
+drop#2 id=8 pos=(36.6519,-9161.75) vel=(0.00186186,-120) awake tile=(36,9161) oob
+drop#3 id=5 pos=(21.497,-8843.59) vel=(5.1454e-05,-120) awake tile=(21,8843) oob
+drop#4 id=6 pos=(21.3776,-1220.19) vel=(2.56061e-11,-116.412) awake tile=(21,1220) oob
+drop#5 id=8 pos=(23.2583,-8843.6) vel=(0.000147011,-120) awake tile=(23,8843) oob
+Drops total: 110
+
+==== Frame 160000 ====
+[mechanics]
+Pos: (17.283102, -1533.164185)
+Vel: (0.000000, -119.999985)
+Grounded: no
+[physics]
+Mouse world: (20.9706, -1531.13)
+Tile: (20, 1531) out_of_bounds
+drop#1 id=8 pos=(21.2617,-9031.92) vel=(4.14939e-05,-120) awake tile=(21,9031) oob
+drop#2 id=8 pos=(36.6546,-9349.75) vel=(0.0016384,-120) awake tile=(36,9349) oob
+drop#3 id=5 pos=(21.497,-9031.59) vel=(4.52787e-05,-120) awake tile=(21,9031) oob
+drop#4 id=6 pos=(21.3776,-1406.58) vel=(2.32005e-11,-120) awake tile=(21,1406) oob
+drop#5 id=8 pos=(23.2584,-9031.6) vel=(0.000129368,-120) awake tile=(23,9031) oob
+Drops total: 110
+
+==== Frame 161000 ====
+[mechanics]
+Pos: (17.283102, -1725.164185)
+Vel: (0.000000, -119.999985)
+Grounded: no
+[physics]
+Mouse world: (20.9706, -1723.13)
+Tile: (20, 1723) out_of_bounds
+drop#1 id=8 pos=(21.2617,-9223.92) vel=(3.64148e-05,-120) awake tile=(21,9223) oob
+drop#2 id=8 pos=(36.6571,-9541.75) vel=(0.00143785,-120) awake tile=(36,9541) oob
+drop#3 id=5 pos=(21.497,-9223.59) vel=(3.97362e-05,-120) awake tile=(21,9223) oob
+drop#4 id=6 pos=(21.3776,-1598.58) vel=(2.03606e-11,-120) awake tile=(21,1598) oob
+drop#5 id=8 pos=(23.2586,-9223.6) vel=(0.000113532,-120) awake tile=(23,9223) oob
+Drops total: 110
+
+==== Frame 162000 ====
+[mechanics]
+Pos: (17.283102, -1907.164185)
+Vel: (0.000000, -119.999992)
+Grounded: no
+[physics]
+Mouse world: (21.6581, -1903.32)
+Tile: (21, 1903) out_of_bounds
+drop#1 id=8 pos=(21.2617,-9405.92) vel=(3.21755e-05,-120) awake tile=(21,9405) oob
+drop#2 id=8 pos=(36.6591,-9723.75) vel=(0.00127046,-120) awake tile=(36,9723) oob
+drop#3 id=5 pos=(21.497,-9405.59) vel=(3.51102e-05,-120) awake tile=(21,9405) oob
+drop#4 id=6 pos=(21.3776,-1780.58) vel=(1.79903e-11,-120) awake tile=(21,1780) oob
+drop#5 id=8 pos=(23.2588,-9405.6) vel=(0.000100315,-120) awake tile=(23,9405) oob
+Drops total: 110
+
+==== Frame 163000 ====
+[mechanics]
+Pos: (17.283102, -2093.164062)
+Vel: (0.000000, -119.999985)
+Grounded: no
+[physics]
+Mouse world: (21.6581, -2089.32)
+Tile: (21, 2089) out_of_bounds
+drop#1 id=8 pos=(21.2617,-9591.92) vel=(2.83524e-05,-120) awake tile=(21,9591) oob
+drop#2 id=8 pos=(36.6609,-9909.75) vel=(0.00111951,-120) awake tile=(36,9909) oob
+drop#3 id=5 pos=(21.497,-9591.59) vel=(3.09385e-05,-120) awake tile=(21,9591) oob
+drop#4 id=6 pos=(21.3776,-1966.58) vel=(1.58527e-11,-120) awake tile=(21,1966) oob
+drop#5 id=8 pos=(23.259,-9591.6) vel=(8.83956e-05,-120) awake tile=(23,9591) oob
+Drops total: 110
+

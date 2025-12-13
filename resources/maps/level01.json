@@ -1,0 +1,166 @@
+{
+    "vertices": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            128
+        ],
+        [
+            128,
+            128
+        ],
+        [
+            128,
+            0
+        ],
+        [
+            128,
+            0
+        ],
+        [
+            256,
+            0
+        ],
+        [
+            256,
+            347
+        ],
+        [
+            128,
+            128
+        ]
+    ],
+    "sectors": [
+        {
+            "id": 1,
+            "vertex_indices": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "floor_height": 0,
+            "ceil_height": 64,
+            "floor_texture": "floor_wood",
+            "ceil_texture": "ceiling_stone",
+            "lighting": 1.0
+        },
+        {
+            "id": 2,
+            "vertex_indices": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "floor_height": 0,
+            "ceil_height": 64,
+            "floor_texture": "floor_stone",
+            "ceil_texture": "ceiling_stone",
+            "lighting": 0.8
+        }
+    ],
+    "segments": [
+        {
+            "start_vertex": 0,
+            "end_vertex": 1,
+            "left_sector": 1,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 1,
+            "end_vertex": 2,
+            "left_sector": 1,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 2,
+            "end_vertex": 3,
+            "left_sector": 1,
+            "right_sector": 2,
+            "wall_texture": "wall_portal",
+            "top": 64,
+            "bottom": 0,
+            "type": "portal"
+        },
+        {
+            "start_vertex": 3,
+            "end_vertex": 0,
+            "left_sector": 1,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 4,
+            "end_vertex": 5,
+            "left_sector": 2,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 5,
+            "end_vertex": 6,
+            "left_sector": 2,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 6,
+            "end_vertex": 7,
+            "left_sector": 2,
+            "right_sector": null,
+            "wall_texture": "wall_brick",
+            "top": 64,
+            "bottom": 0,
+            "type": "solid"
+        },
+        {
+            "start_vertex": 7,
+            "end_vertex": 4,
+            "left_sector": 2,
+            "right_sector": 1,
+            "wall_texture": "wall_portal",
+            "top": 64,
+            "bottom": 0,
+            "type": "portal"
+        }
+    ],
+    "entities": [
+        {
+            "type": "player",
+            "pos": [
+                32,
+                32
+            ],
+            "angle": 0
+        },
+        {
+            "type": "enemy",
+            "kind": "bat",
+            "pos": [
+                160,
+                64
+            ]
+        }
+    ]
+}

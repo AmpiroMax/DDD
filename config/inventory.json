@@ -1,0 +1,20 @@
+{
+  "slots": 5,
+  "hotbar_size": 5,
+  "items": {
+    "1": {
+      "name": "Ground Block",
+      "max_stack": 99,
+      "place_tile_id": 1,
+      "icon_region": "ground",
+      "icon_texture": "tiles"
+    }
+  },
+  "initial": [
+    {
+      "slot": 0,
+      "item_id": 1,
+      "count": 20
+    }
+  ]
+}

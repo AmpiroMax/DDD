@@ -1,0 +1,156 @@
+{
+    "sectors": [
+        {
+            "name": "floor",
+            "vertices": [
+                [
+                    -5,
+                    -5
+                ],
+                [
+                    5,
+                    -5
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    -5,
+                    5
+                ]
+            ],
+            "texture": "floor_stone"
+        },
+        {
+            "name": "wall_left",
+            "vertices": [
+                [
+                    -5,
+                    -5
+                ],
+                [
+                    -5,
+                    5
+                ],
+                [
+                    -4.9,
+                    5
+                ],
+                [
+                    -4.9,
+                    -5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_right",
+            "vertices": [
+                [
+                    4.9,
+                    -5
+                ],
+                [
+                    4.9,
+                    5
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    -5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_top",
+            "vertices": [
+                [
+                    -5,
+                    4.9
+                ],
+                [
+                    5,
+                    4.9
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    -5,
+                    5
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "wall_bottom",
+            "vertices": [
+                [
+                    -5,
+                    -5
+                ],
+                [
+                    5,
+                    -5
+                ],
+                [
+                    5,
+                    -4.9
+                ],
+                [
+                    -5,
+                    -4.9
+                ]
+            ],
+            "texture": "wall_brick",
+            "physics": {
+                "type": "static"
+            }
+        },
+        {
+            "name": "box",
+            "vertices": [
+                [
+                    -0.25,
+                    -0.25
+                ],
+                [
+                    0.25,
+                    -0.25
+                ],
+                [
+                    0.25,
+                    0.25
+                ],
+                [
+                    -0.25,
+                    0.25
+                ]
+            ],
+            "texture": "wood_box",
+            "physics": {
+                "type": "dynamic",
+                "mass": 1.0,
+                "friction": 0.4,
+                "restitution": 0.1,
+                "linearDamping": 0.5,
+                "canRotate": true
+            }
+        }
+    ]
+}

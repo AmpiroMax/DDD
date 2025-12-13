@@ -22,6 +22,7 @@ struct InputComponent : Component {
 
     sf::Vector2i mousePixel{0, 0};
     Vec2 mouseWorld{0.0f, 0.0f};
+    float mouseWheelDelta{0.0f}; // accumulated wheel delta for the frame
 };
 
 #endif // DDD_COMPONENTS_INPUT_COMPONENT_H

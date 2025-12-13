@@ -17,6 +17,7 @@ class InputSystem : public System {
     struct ActionBinding {
         std::vector<sf::Keyboard::Key> keys;
         std::vector<sf::Mouse::Button> mouseButtons;
+        std::vector<int> wheelDirections; // +1 for up, -1 for down
     };
 
     InputSystem(WindowManager &windowMgr, CameraManager &cameraMgr, EntityManager &entityMgr);
@@ -29,6 +30,7 @@ class InputSystem : public System {
     void loadBindingsFromFile(const std::string &path);
     const std::unordered_map<std::string, ActionBinding> &getBindings() const { return bindings; }
     InputComponent *getInput() const { return input; }
+    void resetInputEntity();
 
   private:
     void resetFrameStates();
@@ -43,6 +45,7 @@ class InputSystem : public System {
     EntityManager &entityManager;
     InputComponent *input{nullptr};
     std::unordered_map<std::string, ActionBinding> bindings;
+    int wheelDelta{0};
 };
 
 #endif // DDD_SYSTEMS_INPUT_SYSTEM_H
