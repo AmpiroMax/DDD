@@ -215,14 +215,14 @@ void GameApp::run() {
             if (sys.get() == inputSystem)
                 continue; // already updated
             if (!menuActive || sys.get() == inputSystem)
-                sys->update(dt);
+            sys->update(dt);
         }
 
         if (physicsSystem) {
-            while (physicsAccumulator >= PHYSICS_TIMESTEP) {
+        while (physicsAccumulator >= PHYSICS_TIMESTEP) {
                 physicsSystem->update(PHYSICS_TIMESTEP);
-                physicsAccumulator -= PHYSICS_TIMESTEP;
-            }
+            physicsAccumulator -= PHYSICS_TIMESTEP;
+        }
         } else {
             physicsAccumulator = 0.0f;
         }

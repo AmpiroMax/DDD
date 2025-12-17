@@ -198,3 +198,102 @@
 - **SystemsSystem/SystemsManager = явный оркестратор**, вместо логики в GameApp.
 
 Это не требует немедленно делать manager 1:1 для каждой системы. Можно мигрировать поэтапно после релиза.
+
+---
+
+## TASK 5 — ResetPipeline: детерминированный reset как транзакция (Quiesce → Unhook → Destroy → Recreate → Resume)
+
+### Название
+**World reset as transaction: ResetPipeline + ResetPhases (no “ad-hoc resetWorld”)**
+
+### Проблема
+Reset мира нужен для SwitchMap/Restart/LoadSave/ExitToMenu, но сейчас это делается через набор разрозненных вызовов (`PhysicsManager.resetWorld` с placement-new, `EntityManager.clear`, ручные `physicsSystem->reset`, перецепление listener в update и т.п.).
+
+Это опасно, потому что:
+- после reset любые старые `b2Body*` становятся невалидны (UAF риск),
+- системы могут продолжить реагировать на события во время reset (если нет токенов/отписок),
+- сложно гарантировать порядок действий и повторяемость.
+
+### Что обсуждали / от чего отказались
+- **Отказались от “на скорую руку”**: не хотим держать reset как набор вызовов в GameApp, который легко сломать перестановкой строк.
+- **Отказались от динамического DAG/reset-магии**: reset должен быть прозрачным и детерминированным.
+
+### Что решили делать (и почему)
+Сделать reset **транзакцией** с явными фазами:
+1) **Quiesce**: остановить gameplay/physics/render (scheduler переводится в ResetMode/ResetPhase).
+2) **Unhook**: системы отцепляют внешние ресурсы/колбэки (например, PhysicsSystem снимает contact listener, чистит кэши коллайдеров).
+3) **Destroy**: очистка ECS-энтити и физики.
+4) **Recreate**: создание tilemap/player/drops и применение сейва/карты.
+5) **Resume**: вернуть рабочие фазы и включённые системы.
+
+Почему так:
+- невозможно “случайно” оставить висящие указатели,
+- порядок фиксирован и документирован,
+- подготовка к scheduler (SystemsSystem) и EventBus tokens.
+
+### Затрагивает
+- `src/game/GameApp.cpp/.h` (перенос reset/start/load/save к единообразному протоколу)
+- `src/systems/PhysicsSystem.h` (явные хуки reset/init)
+- новые файлы (предпочтительно):
+  - `src/systems/ResetSystem.h/.cpp` (как System-исполнитель reset протокола)
+  - `src/managers/ResetManager.h` (как интерфейс для меню/загрузки сейва)
+
+### Шаги реализации
+1) Ввести понятие `ResetReason` (SwitchMap/Restart/LoadSave/ExitToMenu) + `ResetContext` (mapPath, savePath).
+2) Реализовать ResetPhase/ResetMode в scheduler (или временно в GameApp): во время reset не тикаем gameplay/physics/render.
+3) Реализовать фазу Unhook:
+   - `PhysicsSystem.shutdown()` (снять listener) и `PhysicsSystem.reset()` (очистить tileBodies/кэши).
+   - (опционально) UI/другие системы отцепляют внешние pointers.
+4) Destroy:
+   - `EntityManager.clear()`
+   - физику очищаем через TASK 6 (clearWorld без пересоздания b2World).
+5) Recreate:
+   - `loadMapAndEntities(mapPath)` или `loadSave(savePath)` через единый поток, без дублей логики.
+   - убедиться, что `TilemapComponent.originalTiles` заполнен корректно.
+6) Resume:
+   - включить нужные системы/фазы (Playing/Menu) и вернуться в цикл.
+
+### Исполнители
+- **Senior/TL (Core)**: протокол фаз, интеграция с scheduler и меню.
+- **Physics developer**: хуки reset/init в PhysicsSystem, проверка tileBodies/contact listener.
+- **UI developer**: переходы экранов, инициирование reset (SwitchMap/ExitToMenu/Continue).
+
+---
+
+## TASK 6 — PhysicsManager: clearWorld вместо placement-new resetWorld + правила lifetime Box2D
+
+### Название
+**Safe physics reset: clearWorld() (destroy all bodies) + lifetime invariants (no placement-new)** 
+
+### Проблема
+`PhysicsManager.resetWorld()` сейчас пересоздаёт `b2World` через placement-new. Это усиливает риск UAF: любые указатели/ссылки на мир/тела становятся невалидны, а порядок reset обязан быть идеальным.
+
+### Что обсуждали / от чего отказались
+- **Отказались от “пересоздаём b2World как объект”** для основательного решения: слишком легко словить тонкие баги, особенно при появлении scheduler и enable/disable систем.
+
+### Что решили делать (и почему)
+Сделать `PhysicsManager.clearWorld()`:
+- не меняем объект `b2World`,
+- проходим по списку тел и `DestroyBody` для всех,
+- (опционально) сбрасываем listener через PhysicsSystem shutdown.
+
+Почему так:
+- адрес `b2World` стабилен,
+- проще reasoning про lifetime,
+- меньше неожиданных side-effects.
+
+### Затрагивает
+- `src/managers/PhysicsManager.h`
+- `src/game/GameApp.cpp` (вызовы reset физики)
+- `src/systems/PhysicsSystem.h` (поведение при reset: ожидать empty world)
+
+### Шаги реализации
+1) Добавить `PhysicsManager::clearWorld()` (итерация по `GetBodyList()` с сохранением next).
+2) Постепенно заменить использование `resetWorld()` на `clearWorld()` в reset pipeline (TASK 5).
+3) Удалить/задепрекейтить `resetWorld()` или оставить только для тестов, но запретить в прод-коде.
+4) Зафиксировать инвариант:
+   - reset всегда делает: shutdown physics → clear bodies → clear entities → recreate → reattach listener.
+
+### Исполнители
+- **Physics developer**: реализация clearWorld + согласование с PhysicsSystem reset.
+- **Senior/TL (Core)**: интеграция в ResetPipeline и контроль инвариантов.
