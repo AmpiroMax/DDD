@@ -178,6 +178,61 @@
       "keys": [
         "Tilde"
       ]
+    },
+    "scoreboard": {
+      "keys": [
+        "Tab"
+      ]
+    },
+    "spell_1": {
+      "mouse": [
+        "Left"
+      ]
+    },
+    "spell_2": {
+      "mouse": [
+        "Right"
+      ]
+    },
+    "spell_3": {
+      "keys": [
+        "Q"
+      ]
+    },
+    "spell_4": {
+      "keys": [
+        "E"
+      ]
+    },
+    "spell_5": {
+      "keys": [
+        "R"
+      ]
+    },
+    "spell_6": {
+      "keys": [
+        "F"
+      ]
+    },
+    "spell_7": {
+      "keys": [
+        "Z"
+      ]
+    },
+    "spell_8": {
+      "keys": [
+        "X"
+      ]
+    },
+    "spell_prev": {
+      "wheel": [
+        "Up"
+      ]
+    },
+    "spell_next": {
+      "wheel": [
+        "Down"
+      ]
     }
   }
 }

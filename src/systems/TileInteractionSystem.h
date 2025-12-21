@@ -7,6 +7,7 @@
 #include "core/EventBus.h"
 #include "core/System.h"
 #include "events/TileEvents.h"
+#include "game/GameplayCommandBuffer.h"
 #include "systems/InputSystem.h"
 
 class InventorySystem;
@@ -14,7 +15,7 @@ class InventorySystem;
 class TileInteractionSystem : public System {
   public:
     TileInteractionSystem(InputSystem &inputSys, EntityManager &entityMgr, EventBus &eventBus,
-                          InventorySystem *inventorySys = nullptr);
+                          InventorySystem *inventorySys, GameplayCommandBuffer &cmdBuffer);
     void update(float dt) override;
     void setInventorySystem(InventorySystem *inventorySys) { inventorySystem = inventorySys; }
 
@@ -25,6 +26,7 @@ class TileInteractionSystem : public System {
     EntityManager &entityManager;
     EventBus &eventBus;
     InventorySystem *inventorySystem{nullptr};
+    GameplayCommandBuffer &commandBuffer;
     int placeTileFallback{1}; // default block id when inventory is missing
 };
 

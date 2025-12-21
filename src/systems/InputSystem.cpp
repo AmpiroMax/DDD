@@ -1,6 +1,7 @@
 #include "systems/InputSystem.h"
 
 #include "utils/CoordinateUtils.h"
+#include "utils/IsoCoordinate.h"
 #include <cctype>
 #include <fstream>
 #include <iostream>
@@ -111,8 +112,11 @@ void InputSystem::updateMouse() {
 
     sf::RenderWindow &window = windowManager.getWindow();
     input->mousePixel = sf::Mouse::getPosition(window);
-    const sf::Vector2f renderPos = window.mapPixelToCoords(input->mousePixel, windowManager.getView());
-    input->mouseWorld = renderToWorld(Vec2{renderPos.x, renderPos.y});
+    // Use iso-aware conversion: screen(view) -> world.
+    IsoConfig cfg = isoConfig;
+    cfg.computeDirections();
+    const sf::Vector2f viewPos = window.mapPixelToCoords(input->mousePixel, windowManager.getView());
+    input->mouseWorld = IsoCoordinate::screenToWorld(Vec2{viewPos.x, viewPos.y}, cameraManager, cfg);
 }
 
 void InputSystem::refreshActions() {
@@ -218,6 +222,8 @@ sf::Keyboard::Key InputSystem::parseKey(const std::string &name) {
         return K::Num8;
     if (n == "NINE" || n == "9")
         return K::Num9;
+    if (n == "TAB")
+        return K::Tab;
     if (n == "ZERO" || n == "0")
         return K::Num0;
     if (n == "SPACE")
@@ -324,6 +330,7 @@ void InputSystem::loadBindingsFromFile(const std::string &path) {
         bindings["slot_next"] = ActionBinding{{sf::Keyboard::E}, {}, {-1}};
         bindings["menu"] = ActionBinding{{sf::Keyboard::Escape}, {}};
         bindings["debug_toggle"] = ActionBinding{{sf::Keyboard::Tilde}, {}};
+        bindings["scoreboard"] = ActionBinding{{sf::Keyboard::Tab}, {}};
         bindings["inventory_prev"] = bindings["slot_prev"];
         bindings["inventory_next"] = bindings["slot_next"];
         bindings["inventory_slot_1"] = bindings["slot_1"];
@@ -336,6 +343,17 @@ void InputSystem::loadBindingsFromFile(const std::string &path) {
         bindings["inventory_slot_8"] = bindings["slot_8"];
         bindings["inventory_slot_9"] = bindings["slot_9"];
         bindings["inventory_slot_10"] = bindings["slot_10"];
+
+        bindings["spell_1"] = ActionBinding{{sf::Keyboard::Q}, {}};
+        bindings["spell_2"] = ActionBinding{{sf::Keyboard::W}, {}};
+        bindings["spell_3"] = ActionBinding{{sf::Keyboard::E}, {}};
+        bindings["spell_4"] = ActionBinding{{sf::Keyboard::R}, {}};
+        bindings["spell_5"] = ActionBinding{{sf::Keyboard::A}, {}};
+        bindings["spell_6"] = ActionBinding{{sf::Keyboard::S}, {}};
+        bindings["spell_7"] = ActionBinding{{sf::Keyboard::D}, {}};
+        bindings["spell_8"] = ActionBinding{{sf::Keyboard::F}, {}};
+        bindings["spell_prev"] = ActionBinding{{}, {}, {1}};
+        bindings["spell_next"] = ActionBinding{{}, {}, {-1}};
     }
 }
 

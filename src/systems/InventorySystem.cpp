@@ -8,8 +8,13 @@
 
 InventorySystem::InventorySystem(InputSystem &inputSys, EntityManager &entityMgr, EventBus &eventBus)
     : inputSystem(inputSys), entityManager(entityMgr), eventBus(eventBus) {
-    eventBus.subscribe<InventoryAddItemEvent>(
+    addItemSub_ = eventBus.subscribeWithToken<InventoryAddItemEvent>(
         [this](const InventoryAddItemEvent &ev) { addItem(ev.entityId, ev.itemId, ev.amount); });
+}
+
+void InventorySystem::shutdown() {
+    eventBus.unsubscribe(addItemSub_);
+    addItemSub_ = {};
 }
 
 void InventorySystem::loadConfigFromFile(const std::string &path) {

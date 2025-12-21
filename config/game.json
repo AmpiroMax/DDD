@@ -1,4 +1,5 @@
 {
+  "mode": "diablo",
   "resources_path": "resources/",
   "textures_path": "textures/",
   "window": {
@@ -6,15 +7,40 @@
       1280,
       720
     ],
-    "title": "DDD Terraria-like MVP"
+    "title": "DDD Diablo-like PvP MVP"
   },
   "player": {
     "speed": 6.0,
+    "radius": 0.45,
+    "accel": 30.0,
+    "decel": 40.0,
+    "linear_damping": 6.0,
     "jump_impulse": 8.0,
     "sprite": "player",
     "pickup_radius": 48.0
   },
+  "iso": {
+    "axis_x_deg": 150.0,
+    "axis_y_deg": 30.0,
+    "pitch": 1.0,
+    "screen_scale": 32.0
+  },
+  "max_players": 8,
+  "player_player_collision": true,
+  "spells_file": "spells.json",
   "inventory_file": "inventory.json",
+  "spawns_file": "spawns.json",
+  "match": {
+    "duration_sec": 180
+  },
+  "arena": {
+    "bounds": [
+      -10,
+      40,
+      -10,
+      30
+    ]
+  },
   "world": {
     "tile_size": 32,
     "map_file": "maps/level_house.json"

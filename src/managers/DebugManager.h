@@ -7,6 +7,9 @@
 
 class DebugManager {
   public:
+    void setEnabled(bool v) { enabled = v; }
+    bool isEnabled() const { return enabled; }
+
     void setString(const std::string &s) { text = s; }
     const std::string &getString() const { return text; }
 
@@ -24,10 +27,21 @@ class DebugManager {
     const std::unordered_map<std::string, std::vector<std::string>> &getStreams() const { return streams; }
     void clearAllSections() { streams.clear(); }
 
+    // Per-source visibility toggles for UI/overlay.
+    void setSourceEnabled(const std::string &source, bool v) { sourceVisibility[source] = v; }
+    bool isSourceEnabled(const std::string &source) const {
+        auto it = sourceVisibility.find(source);
+        if (it == sourceVisibility.end())
+            return true; // default visible
+        return it->second;
+    }
+
   private:
+    bool enabled{true};
     std::string text;
     bool visible{true};
     std::unordered_map<std::string, std::vector<std::string>> streams;
+    std::unordered_map<std::string, bool> sourceVisibility;
 };
 
 #endif // DDD_MANAGERS_DEBUG_MANAGER_H

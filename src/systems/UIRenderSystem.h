@@ -7,6 +7,7 @@
 #include "managers/ResourceManager.h"
 #include "managers/WindowManager.h"
 #include "events/InventoryEvents.h"
+#include "events/GameEvents.h"
 #include <SFML/Graphics.hpp>
 #include <string>
 #include <unordered_map>
@@ -38,9 +39,26 @@ class UIRenderSystem : public System {
         std::vector<std::string> settingsLines;
     };
 
+    struct PlayerRow {
+        std::string name;
+        int kills{0};
+        int deaths{0};
+    };
+
+    struct KillFeedEntry {
+        std::string killer;
+        std::string victim;
+        std::string weapon;
+        float ttl{5.0f};
+    };
+
     UIRenderSystem(WindowManager &windowMgr, ResourceManager &resourceMgr, DebugManager &debugMgr, EventBus &eventBus);
+    ~UIRenderSystem() override { shutdown(); }
     void update(float dt) override;
+    void shutdown() override;
     void setMenuState(const MenuRenderState *state) { menuState = state; }
+    void setShowScoreboard(bool v) { showScoreboard = v; }
+    bool isScoreboardVisible() const { return showScoreboard; }
 
   private:
     struct UISlot {
@@ -56,11 +74,20 @@ class UIRenderSystem : public System {
     void drawMenuButton();
     void drawDebugButton();
     void handleInventoryStateChanged(const InventoryStateChangedEvent &ev);
+    void handleMatchState(const MatchStateEvent &ev);
+    void handlePlayerStats(const PlayerStatsEvent &ev);
+    void handleKillEvent(const KillEvent &ev);
+    void handleRespawnTimer(const RespawnTimerEvent &ev);
+    void drawHUD(float dt);
+    void drawScoreboard();
+    void drawRespawn();
+    void drawKillfeed(float dt);
 
     WindowManager &windowManager;
     ResourceManager &resourceManager;
     DebugManager &debugManager;
     EventBus &eventBus;
+    std::vector<EventBus::SubscriptionToken> subscriptions_;
 
     std::string debugFontName{"debug"};
     sf::Color debugTextColor{sf::Color::White};
@@ -71,6 +98,18 @@ class UIRenderSystem : public System {
     bool hasInventory{false};
 
     const MenuRenderState *menuState{nullptr};
+
+    // Match UI state
+    MatchStateEvent::Phase matchPhase{MatchStateEvent::Phase::PreMatch};
+    float matchTime{0.0f};
+    int scoreA{0};
+    int scoreB{0};
+    std::vector<PlayerRow> players;
+    std::vector<KillFeedEntry> killfeed;
+    float respawnTime{0.0f};
+    bool canRespawn{false};
+    bool showRespawn{false};
+    bool showScoreboard{false};
 };
 
 #endif // DDD_SYSTEMS_UI_RENDER_SYSTEM_H

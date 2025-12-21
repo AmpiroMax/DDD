@@ -23,11 +23,13 @@ class InventorySystem : public System {
     };
 
     InventorySystem(InputSystem &inputSys, EntityManager &entityMgr, EventBus &eventBus);
+    ~InventorySystem() override { shutdown(); }
 
     void loadConfigFromFile(const std::string &path);
     void attachToEntity(Entity &entity);
 
     void update(float dt) override;
+    void shutdown() override;
 
     int addItem(Entity::Id entityId, int itemId, int amount);
     bool consumeFromSlot(Entity::Id entityId, int slotIndex, int amount);
@@ -52,6 +54,7 @@ class InventorySystem : public System {
     InputSystem &inputSystem;
     EntityManager &entityManager;
     EventBus &eventBus;
+    EventBus::SubscriptionToken addItemSub_{};
 
     int slotCount{5};
     int hotbarSize{5};

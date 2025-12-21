@@ -17,9 +17,10 @@ class PlayerControlSystem : public System {
   public:
     PlayerControlSystem(InputSystem &inputSystem, EntityManager &entityManager, EventBus &eventBus, float moveSpeed,
                         float jumpImpulse);
-    ~PlayerControlSystem() override = default;
+    ~PlayerControlSystem() override { shutdown(); }
 
     void update(float dt) override;
+    void shutdown() override;
 
   private:
     void onGrounded(const GroundedEvent &ev);
@@ -27,6 +28,7 @@ class PlayerControlSystem : public System {
     InputSystem &inputSystem;
     EntityManager &entityManager;
     EventBus &eventBus;
+    EventBus::SubscriptionToken groundedSub_{};
     float moveSpeed{6.0f};
     float jumpImpulse{8.0f};
 };

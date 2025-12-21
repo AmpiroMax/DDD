@@ -8,6 +8,8 @@ constexpr float RAD2DEG = 180.0f / PI;
 // Scales
 constexpr float PHYSICS_SCALE = 1.0f;   // 1 world unit == 1 meter in physics
 constexpr float RENDER_SCALE = 32.0f;   // 1 world unit == 32 pixels
+constexpr float ISO_TILE_WIDTH = RENDER_SCALE * 2.0f;  // isometric diamond width in pixels for 1 world unit
+constexpr float ISO_TILE_HEIGHT = RENDER_SCALE * 1.0f; // isometric diamond height in pixels for 1 world unit
 
 // Physics step
 constexpr float PHYSICS_TIMESTEP = 1.0f / 60.0f;

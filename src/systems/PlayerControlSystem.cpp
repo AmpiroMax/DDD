@@ -6,7 +6,12 @@
 PlayerControlSystem::PlayerControlSystem(InputSystem &inputSys, EntityManager &entityMgr, EventBus &eventBus, float moveSpd,
                                          float jumpImp)
     : inputSystem(inputSys), entityManager(entityMgr), eventBus(eventBus), moveSpeed(moveSpd), jumpImpulse(jumpImp) {
-    eventBus.subscribe<GroundedEvent>([this](const GroundedEvent &ev) { onGrounded(ev); });
+    groundedSub_ = eventBus.subscribeWithToken<GroundedEvent>([this](const GroundedEvent &ev) { onGrounded(ev); });
+}
+
+void PlayerControlSystem::shutdown() {
+    eventBus.unsubscribe(groundedSub_);
+    groundedSub_ = {};
 }
 
 void PlayerControlSystem::onGrounded(const GroundedEvent &ev) {

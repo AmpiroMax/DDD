@@ -6,6 +6,7 @@
 #include "core/System.h"
 #include "managers/CameraManager.h"
 #include "managers/WindowManager.h"
+#include "utils/IsoConfig.h"
 #include <SFML/Window/Event.hpp>
 #include <nlohmann/json.hpp>
 #include <string>
@@ -30,6 +31,7 @@ class InputSystem : public System {
     void loadBindingsFromFile(const std::string &path);
     const std::unordered_map<std::string, ActionBinding> &getBindings() const { return bindings; }
     InputComponent *getInput() const { return input; }
+    void setIsoConfig(const IsoConfig &cfg) { isoConfig = cfg; isoConfig.computeDirections(); }
     void resetInputEntity();
 
   private:
@@ -46,6 +48,7 @@ class InputSystem : public System {
     InputComponent *input{nullptr};
     std::unordered_map<std::string, ActionBinding> bindings;
     int wheelDelta{0};
+    IsoConfig isoConfig{};
 };
 
 #endif // DDD_SYSTEMS_INPUT_SYSTEM_H

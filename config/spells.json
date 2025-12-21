@@ -1,0 +1,72 @@
+{
+  "mana": {
+    "max": 100,
+    "regen": 8
+  },
+  "slots": [
+    "fireball",
+    "blink",
+    "summon_wolf",
+    "heal"
+  ],
+  "spells": {
+    "fireball": {
+      "tags": [
+        "projectile",
+        "aoe",
+        "fire"
+      ],
+      "mana_cost": 20,
+      "cooldown": 3.0,
+      "cast_time": 0.2,
+      "range": 12.0,
+      "icon": {
+        "texture": "ui_spells.png",
+        "region": "fireball"
+      },
+      "tooltip": "Fire projectile with small splash."
+    },
+    "blink": {
+      "tags": [
+        "movement",
+        "teleport"
+      ],
+      "mana_cost": 15,
+      "cooldown": 5.0,
+      "cast_time": 0.0,
+      "range": 8.0,
+      "icon": {
+        "texture": "ui_spells.png",
+        "region": "blink"
+      },
+      "tooltip": "Short teleport toward cursor."
+    },
+    "summon_wolf": {
+      "tags": [
+        "summon",
+        "ally"
+      ],
+      "mana_cost": 25,
+      "cooldown": 8.0,
+      "cast_time": 0.3,
+      "icon": {
+        "texture": "ui_spells.png",
+        "region": "wolf"
+      },
+      "tooltip": "Summon a wolf companion."
+    },
+    "heal": {
+      "tags": [
+        "support"
+      ],
+      "mana_cost": 18,
+      "cooldown": 4.0,
+      "cast_time": 0.1,
+      "icon": {
+        "texture": "ui_spells.png",
+        "region": "heal"
+      },
+      "tooltip": "Restore health over time."
+    }
+  }
+}

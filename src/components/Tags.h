@@ -5,6 +5,7 @@
 
 struct PlayerTag : Component {};
 struct CameraTargetTag : Component {};
+struct DummyPlayerTag : Component {};
 
 #endif // DDD_COMPONENTS_TAGS_H
 

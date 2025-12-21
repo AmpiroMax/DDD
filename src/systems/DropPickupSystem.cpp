@@ -44,17 +44,10 @@ void DropPickupSystem::update(float dt) {
         if (dist2 > radius2)
             continue;
 
-        const int remaining = inventorySystem.addItem(player->getId(), drop->itemId, drop->count);
-        if (remaining <= 0) {
-            destroyBodyIfAny(*entPtr);
-            toRemove.push_back(entPtr->getId());
-        } else {
-            drop->count = remaining;
-        }
+        // Defer pickup into gameplay command buffer to keep mutation in a defined phase.
+        commandBuffer.push(PickupCommand{player->getId(), entPtr->getId(), drop->itemId, drop->count});
     }
 
-    for (auto id : toRemove) {
-        entityManager.remove(id);
-    }
+    (void)toRemove; // no-op now; cleanup happens when command is applied
 }
 

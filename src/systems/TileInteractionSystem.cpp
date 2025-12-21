@@ -8,8 +8,9 @@
 #include "systems/InventorySystem.h"
 
 TileInteractionSystem::TileInteractionSystem(InputSystem &inputSys, EntityManager &entityMgr, EventBus &eventBus,
-                                             InventorySystem *inventorySys)
-    : inputSystem(inputSys), entityManager(entityMgr), eventBus(eventBus), inventorySystem(inventorySys) {}
+                                             InventorySystem *inventorySys, GameplayCommandBuffer &cmdBuffer)
+    : inputSystem(inputSys), entityManager(entityMgr), eventBus(eventBus), inventorySystem(inventorySys),
+      commandBuffer(cmdBuffer) {}
 
 bool TileInteractionSystem::pickTile(const TilemapComponent &map, const Vec2 &worldPos, int &outX, int &outY) const {
     const float localX = (worldPos.x - map.origin.x) / map.tileSize;
@@ -75,16 +76,9 @@ void TileInteractionSystem::update(float dt) {
         eventBus.emit(PlaceBlockEvent{tx, ty, chosenTileId});
 
         if (inventorySystem && activeItem) {
-            inventorySystem->consumeFromSlot(player->getId(), activeItem->slotIndex, 1);
-            InventoryUseItemEvent useEv{};
-            useEv.entityId = player->getId();
-            useEv.slotIndex = activeItem->slotIndex;
-            useEv.itemId = activeItem->itemId;
-            useEv.placeTileId = chosenTileId;
-            useEv.tileX = tx;
-            useEv.tileY = ty;
-            useEv.hasTile = true;
-            eventBus.emit(useEv);
+            // Defer consumption to gameplay command buffer to keep mutations in one phase.
+            commandBuffer.push(ConsumeItemCommand{player->getId(), activeItem->slotIndex, 1, activeItem->itemId,
+                                                  chosenTileId, tx, ty, true});
         }
     }
 }

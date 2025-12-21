@@ -10,12 +10,16 @@
 
 class PhysicsManager {
   public:
-    PhysicsManager() : world(b2Vec2(0.0f, -9.8f)) {}
+    PhysicsManager() : gravity(0.0f, -9.8f), world(gravity) {}
 
     b2World &getWorld() { return world; }
+    void setGravity(const b2Vec2 &g) {
+        gravity = g;
+        world.SetGravity(g);
+    }
     void resetWorld() {
         world.~b2World();
-        new (&world) b2World(b2Vec2(0.0f, -9.8f));
+        new (&world) b2World(gravity);
     }
 
     b2Body *createBody(b2BodyType type, const Vec2 &worldPos, float angleDeg, bool canRotate, float linearDamping,
@@ -84,6 +88,7 @@ class PhysicsManager {
     }
 
   private:
+    b2Vec2 gravity;
     b2World world;
 };
 

@@ -4,6 +4,7 @@
 #include "components/DropComponent.h"
 #include "components/PhysicsBodyComponent.h"
 #include "components/SpriteComponent.h"
+#include "components/Tags.h"
 #include "components/TilemapComponent.h"
 #include "components/TransformComponent.h"
 #include "core/Entity.h"
@@ -23,16 +24,25 @@
 
 class PhysicsSystem : public System {
   public:
-    PhysicsSystem(PhysicsManager &physicsManager, EntityManager &entityManager, EventBus &eventBus)
+    PhysicsSystem(PhysicsManager &physicsManager, EntityManager &entityManager, EventBus &eventBus,
+                  bool enableTilemapColliders = true, bool enablePlayerPlayerCollision = true)
         : physicsManager(physicsManager), entityManager(entityManager), eventBus(eventBus),
-          contactListener(eventBus) {
+          contactListener(eventBus), tilemapCollidersEnabled(enableTilemapColliders),
+          playerPlayerCollisionEnabled(enablePlayerPlayerCollision) {
         physicsManager.getWorld().SetContactListener(&contactListener);
 
-        eventBus.subscribe<PlaceBlockEvent>([this](const PlaceBlockEvent &ev) { handlePlace(ev); });
-        eventBus.subscribe<BreakBlockEvent>([this](const BreakBlockEvent &ev) { handleBreak(ev); });
+        if (tilemapCollidersEnabled) {
+            subscriptions_.push_back(eventBus.subscribeWithToken<PlaceBlockEvent>(
+                [this](const PlaceBlockEvent &ev) { handlePlace(ev); }));
+            subscriptions_.push_back(eventBus.subscribeWithToken<BreakBlockEvent>(
+                [this](const BreakBlockEvent &ev) { handleBreak(ev); }));
+        }
     }
 
-    ~PhysicsSystem() override { shutdown(); }
+    ~PhysicsSystem() override {
+        unsubscribeAll();
+        shutdown();
+    }
 
     void shutdown() override { physicsManager.getWorld().SetContactListener(nullptr); }
 
@@ -49,12 +59,19 @@ class PhysicsSystem : public System {
         physicsManager.getWorld().SetContactListener(&contactListener);
 
         ensureBodies();
-        ensureTilemapColliders();
+        if (tilemapCollidersEnabled)
+            ensureTilemapColliders();
         physicsManager.getWorld().Step(dt, PHYSICS_VELOCITY_ITER, PHYSICS_POSITION_ITER);
         syncTransforms();
     }
 
   private:
+    void unsubscribeAll() {
+        for (const auto &tok : subscriptions_)
+            eventBus.unsubscribe(tok);
+        subscriptions_.clear();
+    }
+
     class ContactListener : public b2ContactListener {
       public:
         explicit ContactListener(EventBus &bus) : eventBus(bus) {}
@@ -87,6 +104,7 @@ class PhysicsSystem : public System {
     };
 
     void ensureBodies() {
+        constexpr uint16 CAT_PLAYER = 0x0004;
         for (auto &entPtr : entityManager.all()) {
             auto *bodyComp = entPtr->get<PhysicsBodyComponent>();
             auto *dropComp = entPtr->get<DropComponent>();
@@ -124,6 +142,13 @@ class PhysicsSystem : public System {
                 bodyComp->body->SetAwake(true);
                 bodyComp->body->SetBullet(true);
                 bodyComp->body->SetGravityScale(1.0f);
+                } else if (fixture && (entPtr->has<PlayerTag>() || entPtr->has<DummyPlayerTag>())) {
+                    b2Filter filter = fixture->GetFilterData();
+                    filter.categoryBits = CAT_PLAYER;
+                    filter.maskBits = 0xFFFF;
+                    if (!playerPlayerCollisionEnabled)
+                        filter.maskBits = static_cast<uint16>(filter.maskBits & ~CAT_PLAYER);
+                    fixture->SetFilterData(filter);
                 }
             } else {
                 bodyComp->body->SetFixedRotation(!bodyComp->fixture.canRotate);
@@ -142,6 +167,15 @@ class PhysicsSystem : public System {
                 bodyComp->body->SetBullet(true);
                 bodyComp->body->SetGravityScale(1.0f);
                     bodyComp->body->SetSleepingAllowed(false);
+                } else if (entPtr->has<PlayerTag>() || entPtr->has<DummyPlayerTag>()) {
+                    for (b2Fixture *f = bodyComp->body->GetFixtureList(); f; f = f->GetNext()) {
+                        b2Filter filter = f->GetFilterData();
+                        filter.categoryBits = CAT_PLAYER;
+                        filter.maskBits = 0xFFFF;
+                        if (!playerPlayerCollisionEnabled)
+                            filter.maskBits = static_cast<uint16>(filter.maskBits & ~CAT_PLAYER);
+                        f->SetFilterData(filter);
+                    }
                 }
             }
         }
@@ -200,6 +234,8 @@ class PhysicsSystem : public System {
     }
 
     void handlePlace(const PlaceBlockEvent &ev) {
+        if (!tilemapCollidersEnabled)
+            return;
         if (TilemapComponent *map = findTilemap()) {
             if (mapOwnerId == kInvalidEntityId)
                 mapOwnerId = tilemapEntityId;
@@ -208,6 +244,8 @@ class PhysicsSystem : public System {
     }
 
     void handleBreak(const BreakBlockEvent &ev) {
+        if (!tilemapCollidersEnabled)
+            return;
         auto it = tileBodies.find({ev.x, ev.y});
         if (it != tileBodies.end()) {
             if (it->second.body)
@@ -370,6 +408,7 @@ class PhysicsSystem : public System {
     EntityManager &entityManager;
     EventBus &eventBus;
     ContactListener contactListener;
+    std::vector<EventBus::SubscriptionToken> subscriptions_;
 
     struct TileBody {
         b2Body *body{nullptr};
@@ -387,6 +426,8 @@ class PhysicsSystem : public System {
     bool tilemapInitialized{false};
     Entity::Id tilemapEntityId{static_cast<Entity::Id>(-1)};
     Entity::Id mapOwnerId{static_cast<Entity::Id>(-1)};
+    bool tilemapCollidersEnabled{true};
+    bool playerPlayerCollisionEnabled{true};
     static constexpr Entity::Id kInvalidEntityId = static_cast<Entity::Id>(-1);
 };
 

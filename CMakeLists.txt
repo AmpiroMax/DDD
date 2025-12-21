@@ -49,6 +49,8 @@ set(SRC_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/src)
 file(GLOB_RECURSE SOURCES
     ${SRC_ROOT}/*.cpp
 )
+# Ensure SpellSystem is always included (guard against glob omissions on some setups).
+list(APPEND SOURCES ${SRC_ROOT}/systems/SpellSystem.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${SRC_ROOT})

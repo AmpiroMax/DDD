@@ -11,6 +11,9 @@ DebugSystem::DebugSystem(EntityManager &entityMgr, DebugManager &debugMgr, Input
 void DebugSystem::update(float dt) {
     (void)dt;
 
+    if (!debugManager.isEnabled())
+        return;
+
     debugManager.clearSection("mechanics");
     debugManager.clearSection("physics");
     std::vector<std::string> lines;
@@ -38,7 +41,8 @@ void DebugSystem::update(float dt) {
         break; // only first player
     }
 
-    debugManager.setSection("mechanics", lines);
+    if (debugManager.isSourceEnabled("mechanics"))
+        debugManager.setSection("mechanics", lines);
 
     // Tile / physics debug
     TilemapComponent *tilemap = nullptr;
@@ -107,7 +111,8 @@ void DebugSystem::update(float dt) {
     }
     physLines.push_back("Drops total: " + std::to_string(dropCount));
 
-    debugManager.setSection("physics", physLines);
+    if (debugManager.isSourceEnabled("physics"))
+        debugManager.setSection("physics", physLines);
 
     maybeLogToFile(lines, physLines);
 }

@@ -6,8 +6,21 @@
 
 UIRenderSystem::UIRenderSystem(WindowManager &windowMgr, ResourceManager &resourceMgr, DebugManager &debugMgr, EventBus &eventBus)
     : windowManager(windowMgr), resourceManager(resourceMgr), debugManager(debugMgr), eventBus(eventBus) {
-    eventBus.subscribe<InventoryStateChangedEvent>(
-        [this](const InventoryStateChangedEvent &ev) { handleInventoryStateChanged(ev); });
+    subscriptions_.push_back(eventBus.subscribeWithToken<InventoryStateChangedEvent>(
+        [this](const InventoryStateChangedEvent &ev) { handleInventoryStateChanged(ev); }));
+    subscriptions_.push_back(eventBus.subscribeWithToken<MatchStateEvent>(
+        [this](const MatchStateEvent &ev) { handleMatchState(ev); }));
+    subscriptions_.push_back(
+        eventBus.subscribeWithToken<PlayerStatsEvent>([this](const PlayerStatsEvent &ev) { handlePlayerStats(ev); }));
+    subscriptions_.push_back(eventBus.subscribeWithToken<KillEvent>([this](const KillEvent &ev) { handleKillEvent(ev); }));
+    subscriptions_.push_back(
+        eventBus.subscribeWithToken<RespawnTimerEvent>([this](const RespawnTimerEvent &ev) { handleRespawnTimer(ev); }));
+}
+
+void UIRenderSystem::shutdown() {
+    for (const auto &tok : subscriptions_)
+        eventBus.unsubscribe(tok);
+    subscriptions_.clear();
 }
 
 void UIRenderSystem::update(float dt) {
@@ -15,6 +28,7 @@ void UIRenderSystem::update(float dt) {
     window.setView(window.getDefaultView());
 
     drawInventoryUI();
+    drawHUD(dt);
     drawMenuButton();
     drawMenuUI();
     drawDebugOverlay(dt);
@@ -42,6 +56,8 @@ void UIRenderSystem::drawDebugOverlay(float dt) {
     const auto &streams = debugManager.getStreams();
     if (!streams.empty()) {
         for (const auto &kv : streams) {
+            if (!debugManager.isSourceEnabled(kv.first))
+                continue;
             lines.push_back(kv.first + ":");
             for (const auto &ln : kv.second) {
                 lines.push_back("  " + ln);
@@ -283,6 +299,194 @@ void UIRenderSystem::drawInventoryUI() {
     }
 }
 
+static std::string formatTime(float seconds) {
+    if (seconds < 0.0f)
+        seconds = 0.0f;
+    int total = static_cast<int>(seconds + 0.5f);
+    int m = total / 60;
+    int s = total % 60;
+    char buf[16];
+    std::snprintf(buf, sizeof(buf), "%02d:%02d", m, s);
+    return std::string(buf);
+}
+
+void UIRenderSystem::drawHUD(float dt) {
+    sf::RenderWindow &window = windowManager.getWindow();
+    sf::Font *font = resourceManager.hasFont(debugFontName) ? &resourceManager.getFont(debugFontName) : nullptr;
+    if (!font)
+        return;
+
+    // Timer and score
+    sf::Text txt;
+    txt.setFont(*font);
+    txt.setCharacterSize(20);
+    txt.setFillColor(sf::Color::White);
+    txt.setOutlineThickness(1.0f);
+    txt.setOutlineColor(sf::Color(0, 0, 0, 140));
+
+    std::string phaseLabel = "Pre";
+    if (matchPhase == MatchStateEvent::Phase::InMatch)
+        phaseLabel = "Match";
+    else if (matchPhase == MatchStateEvent::Phase::PostMatch)
+        phaseLabel = "Post";
+
+    txt.setString(phaseLabel + " | " + formatTime(matchTime) + " | " + std::to_string(scoreA) + " - " +
+                  std::to_string(scoreB));
+    const float centerX = window.getSize().x * 0.5f;
+    txt.setPosition(centerX - txt.getLocalBounds().width * 0.5f, 8.0f);
+    window.draw(txt);
+
+    // Hotkey hints
+    sf::Text hint;
+    hint.setFont(*font);
+    hint.setCharacterSize(14);
+    hint.setFillColor(sf::Color(220, 220, 220));
+    hint.setOutlineThickness(1.0f);
+    hint.setOutlineColor(sf::Color(0, 0, 0, 120));
+    hint.setString("Tab: Scoreboard   ~: Debug   Esc: Pause");
+    hint.setPosition(12.0f, 36.0f);
+    window.draw(hint);
+
+    drawKillfeed(dt);
+    if (showScoreboard)
+        drawScoreboard();
+    if (showRespawn)
+        drawRespawn();
+}
+
+void UIRenderSystem::drawKillfeed(float dt) {
+    if (killfeed.empty())
+        return;
+    sf::RenderWindow &window = windowManager.getWindow();
+    sf::Font *font = resourceManager.hasFont(debugFontName) ? &resourceManager.getFont(debugFontName) : nullptr;
+    if (!font)
+        return;
+
+    for (auto &k : killfeed) {
+        k.ttl -= dt;
+    }
+    killfeed.erase(std::remove_if(killfeed.begin(), killfeed.end(), [](const KillFeedEntry &e) { return e.ttl <= 0.0f; }),
+                   killfeed.end());
+    if (killfeed.empty())
+        return;
+
+    const float margin = 12.0f;
+    const float slotH = 20.0f;
+    const float startX = static_cast<float>(window.getSize().x) - 260.0f;
+    const float startY = 60.0f;
+
+    sf::Text t;
+    t.setFont(*font);
+    t.setCharacterSize(16);
+    t.setFillColor(sf::Color::White);
+    t.setOutlineThickness(1.0f);
+    t.setOutlineColor(sf::Color(0, 0, 0, 140));
+
+    int idx = 0;
+    for (const auto &e : killfeed) {
+        const float y = startY + idx * (slotH + 4.0f);
+        std::string line = e.killer + " -> " + e.victim;
+        if (!e.weapon.empty())
+            line += " [" + e.weapon + "]";
+        t.setString(line);
+        t.setPosition(startX, y);
+        window.draw(t);
+        ++idx;
+    }
+}
+
+void UIRenderSystem::drawScoreboard() {
+    sf::RenderWindow &window = windowManager.getWindow();
+    sf::Font *font = resourceManager.hasFont(debugFontName) ? &resourceManager.getFont(debugFontName) : nullptr;
+    if (!font)
+        return;
+
+    const float width = 420.0f;
+    const float rowH = 26.0f;
+    const float x = (window.getSize().x - width) * 0.5f;
+    const float y = 120.0f;
+    const float height = rowH * static_cast<float>(std::max<std::size_t>(players.size(), 1) + 1) + 16.0f;
+
+    sf::RectangleShape bg;
+    bg.setPosition(x, y);
+    bg.setSize({width, height});
+    bg.setFillColor(sf::Color(20, 24, 30, 200));
+    bg.setOutlineThickness(2.0f);
+    bg.setOutlineColor(sf::Color(90, 110, 140));
+    window.draw(bg);
+
+    sf::Text t;
+    t.setFont(*font);
+    t.setCharacterSize(16);
+    t.setFillColor(sf::Color::White);
+    t.setOutlineThickness(1.0f);
+    t.setOutlineColor(sf::Color(0, 0, 0, 120));
+
+    t.setString("Player            K   D");
+    t.setPosition(x + 12.0f, y + 8.0f);
+    window.draw(t);
+
+    float rowY = y + 8.0f + rowH;
+    for (const auto &p : players) {
+        t.setString(p.name);
+        t.setPosition(x + 12.0f, rowY);
+        window.draw(t);
+
+        t.setString(std::to_string(p.kills));
+        t.setPosition(x + width - 80.0f, rowY);
+        window.draw(t);
+
+        t.setString(std::to_string(p.deaths));
+        t.setPosition(x + width - 40.0f, rowY);
+        window.draw(t);
+
+        rowY += rowH;
+    }
+}
+
+void UIRenderSystem::drawRespawn() {
+    if (!showRespawn)
+        return;
+    sf::RenderWindow &window = windowManager.getWindow();
+    sf::Font *font = resourceManager.hasFont(debugFontName) ? &resourceManager.getFont(debugFontName) : nullptr;
+    if (!font)
+        return;
+
+    sf::RectangleShape overlay;
+    overlay.setSize(sf::Vector2f(static_cast<float>(window.getSize().x), static_cast<float>(window.getSize().y)));
+    overlay.setFillColor(sf::Color(0, 0, 0, 160));
+    window.draw(overlay);
+
+    sf::Text t;
+    t.setFont(*font);
+    t.setCharacterSize(22);
+    t.setFillColor(sf::Color::White);
+    t.setOutlineThickness(1.5f);
+    t.setOutlineColor(sf::Color(0, 0, 0, 180));
+
+    t.setString("Respawn in: " + formatTime(respawnTime));
+    t.setPosition(40.0f, 120.0f);
+    window.draw(t);
+
+    if (canRespawn) {
+        sf::RectangleShape btn;
+        btn.setPosition(40.0f, 170.0f);
+        btn.setSize({200.0f, 40.0f});
+        btn.setFillColor(sf::Color(60, 72, 85, 230));
+        btn.setOutlineThickness(2.0f);
+        btn.setOutlineColor(sf::Color(120, 150, 190));
+        window.draw(btn);
+
+        sf::Text b;
+        b.setFont(*font);
+        b.setCharacterSize(18);
+        b.setFillColor(sf::Color::White);
+        b.setString("Respawn");
+        b.setPosition(60.0f, 178.0f);
+        window.draw(b);
+    }
+}
+
 void UIRenderSystem::handleInventoryStateChanged(const InventoryStateChangedEvent &ev) {
     hasInventory = true;
     activeIndex = ev.activeIndex;
@@ -304,5 +508,37 @@ void UIRenderSystem::handleInventoryStateChanged(const InventoryStateChangedEven
     }
     if (activeIndex < 0 || activeIndex >= static_cast<int>(slots.size()))
         activeIndex = 0;
+}
+
+void UIRenderSystem::handleMatchState(const MatchStateEvent &ev) {
+    matchPhase = ev.phase;
+    matchTime = ev.matchTime;
+    scoreA = ev.scoreA;
+    scoreB = ev.scoreB;
+}
+
+void UIRenderSystem::handlePlayerStats(const PlayerStatsEvent &ev) {
+    players.clear();
+    players.reserve(ev.players.size());
+    for (const auto &p : ev.players) {
+        players.push_back(PlayerRow{p.name, p.kills, p.deaths});
+    }
+}
+
+void UIRenderSystem::handleKillEvent(const KillEvent &ev) {
+    KillFeedEntry k{};
+    k.killer = ev.killer;
+    k.victim = ev.victim;
+    k.weapon = ev.weapon;
+    k.ttl = 6.0f;
+    killfeed.push_back(k);
+    if (killfeed.size() > 7)
+        killfeed.erase(killfeed.begin());
+}
+
+void UIRenderSystem::handleRespawnTimer(const RespawnTimerEvent &ev) {
+    respawnTime = ev.secondsLeft;
+    canRespawn = ev.canRespawn;
+    showRespawn = ev.secondsLeft > 0.0f || ev.canRespawn;
 }
 
